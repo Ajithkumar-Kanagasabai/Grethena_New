@@ -54,8 +54,8 @@ const Header: React.FC<HeaderProps> = ({ onSelectCourse }) => {
   }, []);
 
   return (
-    <header className="md:px-[50px] bg-[#04E39C] h-[110px] flex items-center">
-      <div className="container px-4 py-4 flex justify-between items-center">
+    <header className="md:px-[50px] bg-[#04E39C] h-[110px] flex items-center justify-center">
+      <div className="w-full  py-4 flex justify-between items-center">
         <div className="flex items-center space-x-4">
           <div className="flex md:hidden items-center justify-between">
             {menuOpen && (
@@ -223,7 +223,7 @@ const Header: React.FC<HeaderProps> = ({ onSelectCourse }) => {
         <div>
           <Link
             href={"#"}
-            className="flex items-center justify-center rounded-md bg-[#6754c5] text-white gap-x-1 px-5 py-[0.7rem]"
+            className="flex items-center justify-center rounded-md bg-[#6754c5] text-white gap-x-1 px-5 py-[0.7rem] ml-6"
           >
             <span className=" font-medium">Get in Touch</span>
             <span>
