@@ -54,7 +54,7 @@ const Header: React.FC<HeaderProps> = ({ onSelectCourse }) => {
   }, []);
 
   return (
-    <header className="md:px-[50px] bg-[#04E39C] h-[110px] flex items-center justify-center">
+    <header className="md:px-[50px] bg-[#04E39C] h-[110px] flex items-center justify-center shadow-lg">
       <div className="w-full  py-4 flex justify-between items-center">
         <div className="flex items-center space-x-4">
           <div className="flex md:hidden items-center justify-between">
@@ -66,7 +66,11 @@ const Header: React.FC<HeaderProps> = ({ onSelectCourse }) => {
           {/* desktop view */}
 
           <Link href="/" passHref className=" flex bg-cover">
-            <Image src={Logo} alt="Logo" className="h-[3rem] w-[10rem] bg-cover bg-center" />
+            <Image
+              src={Logo}
+              alt="Logo"
+              className="h-[3rem] w-[10rem] bg-cover bg-center"
+            />
           </Link>
         </div>
         <nav className="hidden md:flex space-x-12 text-xl">
@@ -207,16 +211,28 @@ const Header: React.FC<HeaderProps> = ({ onSelectCourse }) => {
             )}
           </div>
 
-          <Link href="#" className="text-white font-medium">
+          <Link
+            href="#"
+            className="text-white hover:text-black font-medium transition-colors duration-300"
+          >
             Success Stories
           </Link>
-          <Link href="#" className="text-white font-medium">
+          <Link
+            href="#"
+            className="text-white hover:text-black font-medium transition-colors duration-300"
+          >
             Case Studies
           </Link>
-          <Link href="#" className="text-white font-medium">
+          <Link
+            href="#"
+            className="text-white hover:text-black font-medium transition-colors duration-300"
+          >
             Gallery
           </Link>
-          <Link href="/about" className="text-white font-medium">
+          <Link
+            href="/about"
+            className="text-white hover:text-black font-medium transition-colors duration-300"
+          >
             About Us
           </Link>
         </nav>

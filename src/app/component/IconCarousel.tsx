@@ -50,7 +50,7 @@ const IconCarousel = () => {
 
     return (
       <div className="mt-20 w-full mx-auto">
-        <h1 className="text-center text-[14px] sm:text-[20px] md:text-[30px] lg:text-[36px] font-bold bg-[#04E39C] text-white">
+        <h1 className="text-center text-[14px] sm:text-[20px] md:text-[30px] lg:text-[36px] font-bold bg-[#04E39C] text-gray-800">
           Trusted by 10,000+ companies around the world
         </h1>
         <Slider {...settings} className="mt-12 pl-12 sm:pl-20">
