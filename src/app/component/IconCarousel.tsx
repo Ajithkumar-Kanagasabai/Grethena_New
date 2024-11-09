@@ -50,7 +50,7 @@ const IconCarousel = () => {
 
     return (
       <div className="mt-20 w-full mx-auto">
-        <h1 className="text-center text-[14px] sm:text-[20px] md:text-[30px] lg:text-[36px] font-bold bg-[#04E39C] text-white">
+        <h1 className="text-center text-[14px] sm:text-[20px] md:text-[30px] lg:text-[36px] font-bold bg-[#04E39C] text-gray-800">
           Trusted by 10,000+ companies around the world
         </h1>
         <Slider {...settings} className="mt-12 pl-12 sm:pl-20">
@@ -69,11 +69,11 @@ const IconCarousel = () => {
           <div className="flex justify-center">
             <Image src={doubleTree} alt="doubleTree" />
           </div>
-          <div className="flex justify-center">
-            <Image src={rhc} alt="rhc" className="" />
+          <div className="flex justify-center mt-10">
+            <Image src={rhc} alt="rhc" className="w-[150px]" />
           </div>
-          <div className="flex justify-center">
-            <Image src={brandCenter} alt="brandCenter" />
+          <div className="flex justify-center mt-12">
+            <Image src={brandCenter} alt="brandCenter" className="w-[150px]" />
           </div>
           <div className="flex justify-center">
             <Image src={gcMotor} alt="gcMotor" />
@@ -90,11 +90,11 @@ const IconCarousel = () => {
           <div className="flex justify-center">
             <Image src={doubleTree} alt="doubleTree" />
           </div>
-          <div className="flex justify-center">
-            <Image src={rhc} alt="rhc" />
+          <div className="flex justify-center  mt-10">
+            <Image src={rhc} alt="rhc" className="w-[150px]" />
           </div>
-          <div className="flex justify-center">
-            <Image src={brandCenter} alt="brandCenter" />
+          <div className="flex justify-center mt-12">
+            <Image src={brandCenter} alt="brandCenter" className="w-[150px]" />
           </div>
         </Slider>
       </div>

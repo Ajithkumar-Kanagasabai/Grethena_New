@@ -1,48 +1,34 @@
-import React from 'react';
-import Image from 'next/image';
-import Tailored from "../../../public/assets/Icons/Tailored.png";
-import Expert from "../../../public/assets/Icons/Expert.png";
-import HandsOn from "../../../public/assets/Icons/Hands on learning .png";
-import Career from "../../../public/assets/Icons/Carrer.png";
-import Global from "../../../public/assets/Icons/Global.png";
-import Webinars from "../../../public/assets/Icons/Webinars.png";
+import React from "react";
+import Image from "next/image";
+import { FaArrowTrendUp } from "react-icons/fa6";
+import { HiOutlineCurrencyDollar } from "react-icons/hi2";
+import { SiVitest } from "react-icons/si";
 
 const features = [
-    {
-        title: "Tailored for Latin American Talent",
-        description: "Our programs are specifically designed to address the unique needs and challenges Latin American professionals face in the global IT market.",
-        icon: Tailored,
-    },
-    {
-        title: "Expert Instructors",
-        description: "Learn from industry veterans and thought leaders who bring real-world experience and insights to the classroom.",
-        icon: Expert,
-    },
-    {
-        title: "Hands-On Learning",
-        description: "Engage in practical projects and real-life scenarios that enhance learning and ensure job readiness.",
-        icon: HandsOn,
-    },
-    {
-        title: "Career Support",
-        description: "Benefit from our dedicated career services, including job placement assistance, resume building, and interview preparation.",
-        icon: Career,
-    },
-    {
-        title: "Global Community",
-        description: "Join a diverse and supportive network of peers, alumni, and mentors worldwide.",
-        icon: Global,
-    },
-    {
-        title: "Webinars",
-        description: "We regularly schedule webinars on popular topics. Webinars are scheduled at various dates throughout the year and are free to register and join.",
-        icon: Webinars,
-    },
+  {
+    title: "Get to Market Quicker",
+    description:
+      "Data is key to making business and product decisions, the sooner you’re live the quicker you can iterate to find market fit. We respond to all queries within 24 hours and can kick your project off in as little as 1 week.",
+    icon: <FaArrowTrendUp size={35} className="text-[#6754c5]" />,
+  },
+  {
+    title: "Maximise ROI",
+    description:
+      "We work with startups. So we know every penny counts. Our software development packages can be custom built to suit any budget.",
+    icon: <HiOutlineCurrencyDollar size={35} className="text-[#6754c5]" />,
+  },
+  {
+    title: "No compromises on quality",
+    description:
+      "We employ hundreds of highly-skilled, senior level engineers. We pride ourselves on rigorous quality assurance and testing as part of our process to ensure stable, future-proofed software every time.",
+    icon: <SiVitest size={35} className="text-[#6754c5]" />,
+  },
 ];
 
 const FeaturesSection: React.FC = () => {
-    return (
-      <section className="py-4 md:py-16 px-4 md:px-20 bg-white">
+  return (
+    <>
+      <section className="py-4 md:py-16 px-4 md:px-20 ">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl font-bold mb-4 text-[#6754c5]">
             Our approach
@@ -52,22 +38,19 @@ const FeaturesSection: React.FC = () => {
             early stage SMEs. You need fast, cost-effective solutions to scale
             your business.
           </p>
-          <div className="grid gap-8 grid-cols-1 lg:grid-cols-2">
+          <div className="grid gap-9 grid-cols-1 lg:grid-cols-3">
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="flex flex-row p-6 rounded-lg shadow-md items-center"
+                className="flex flex-col p-6 rounded-lg shadow-md items-center bg-[#04E39C] lg:hover:scale-110 hover:scale-105 duration-300"
               >
-                <div className="w-[50%] text-4xl mb-4"></div>
-                <div className="w-[80%]">
-                  <h3 className="text-xl font-semibold mb-2">
-                    Get to Market Quicker
+                <div className={`text-5xl mb-5`}>{feature.icon}</div>
+                <div className="w-[95%] mx-auto">
+                  <h3 className="text-xl font-semibold mb-2  text-white">
+                    {feature.title}
                   </h3>
-                  <p className="mt-4 text-gray-700">
-                    Data is key to making business and product decisions, the
-                    sooner you’re live the quicker you can iterate to find
-                    market fit. We respond to all queries within 24 hours and
-                    can kick your project off in as little as 1 week.
+                  <p className="mt-4 text-gray-800 font-medium">
+                    {feature.description}
                   </p>
                 </div>
               </div>
@@ -75,7 +58,11 @@ const FeaturesSection: React.FC = () => {
           </div>
         </div>
       </section>
-    );
+      <section className="h-[350px] bg-transparent bg-gradient-to-r from-[#FF7369] to-[#FFB06D] mb-[4rem]">
+
+      </section>
+    </>
+  );
 };
 
 export default FeaturesSection;
