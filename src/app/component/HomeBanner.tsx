@@ -33,7 +33,7 @@ const HeroSlider: React.FC = () => {
             </p>
             <h1 className="lg:text-[3rem] text-3xl text-center font-semibold text-white mt-12  lg:w-[80%] mx-auto lg:leading-[4.3rem]">
               Scale faster with{" "}
-              <span className="text-[#04E39C]">high-performing</span> software
+              <span className="text-[#04E39C] lg:text-[4rem]">high-performing</span> software
               and digital products
             </h1>
             <p className="text-center text-xl text-white font-semibold mt-[3rem] leading-5">
@@ -42,10 +42,12 @@ const HeroSlider: React.FC = () => {
             <div className="flex justify-center gap-x-4 mt-[2.5rem]">
               <div>
                 <Link
-                  href={"#"}
-                  className="flex items-center justify-center rounded-md bg-[#6754c5] border-[#6754c5] border-2 text-white gap-x-1 px-5 py-[0.7rem] "
+                  href={
+                    "https://calendly.com/sriram-angajala-grethena/discuss-about-your-new-app-idea?primary_color=00ff1b"
+                  }
+                  className="flex items-center justify-center rounded-md bg-[#6754c5] border-[#6754c5] border-2 text-white gap-x-1 p-3 mx-auto "
                 >
-                  <span className=" font-medium">Get in Touch</span>
+                  <span className=" font-bold">Get in Touch</span>
                   <span>
                     <IoIosArrowRoundForward size={25} />
                   </span>
@@ -54,9 +56,9 @@ const HeroSlider: React.FC = () => {
               <div>
                 <Link
                   href={"#"}
-                  className="flex items-center justify-center rounded-md bg-white text-[#6754c5] border-[#6754c5] border-2 gap-x-1 px-5 py-[0.7rem] "
+                  className="flex items-center justify-center rounded-md bg-white text-[#6754c5] border-[#6754c5] border-2 gap-x-1 p-3"
                 >
-                  <span className=" font-medium">What we do</span>
+                  <span className=" font-bold">What we do</span>
                   <span>
                     <IoIosArrowRoundForward size={25} />
                   </span>

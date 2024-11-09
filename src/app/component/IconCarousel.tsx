@@ -69,11 +69,11 @@ const IconCarousel = () => {
           <div className="flex justify-center">
             <Image src={doubleTree} alt="doubleTree" />
           </div>
-          <div className="flex justify-center">
-            <Image src={rhc} alt="rhc" className="" />
+          <div className="flex justify-center mt-10">
+            <Image src={rhc} alt="rhc" className="w-[150px]" />
           </div>
-          <div className="flex justify-center">
-            <Image src={brandCenter} alt="brandCenter" />
+          <div className="flex justify-center mt-12">
+            <Image src={brandCenter} alt="brandCenter" className="w-[150px]" />
           </div>
           <div className="flex justify-center">
             <Image src={gcMotor} alt="gcMotor" />
@@ -90,11 +90,11 @@ const IconCarousel = () => {
           <div className="flex justify-center">
             <Image src={doubleTree} alt="doubleTree" />
           </div>
-          <div className="flex justify-center">
-            <Image src={rhc} alt="rhc" />
+          <div className="flex justify-center  mt-10">
+            <Image src={rhc} alt="rhc" className="w-[150px]" />
           </div>
-          <div className="flex justify-center">
-            <Image src={brandCenter} alt="brandCenter" />
+          <div className="flex justify-center mt-12">
+            <Image src={brandCenter} alt="brandCenter" className="w-[150px]" />
           </div>
         </Slider>
       </div>

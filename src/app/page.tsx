@@ -18,7 +18,7 @@ export default function Home() {
 
   return (
     <main>
-      <div id="homepage">
+      <div id="homepage" className="font-Quicksand">
         <Header onSelectCourse={setSelectedCourse} />
         <HeroSlider />
         <IconCarousel />
