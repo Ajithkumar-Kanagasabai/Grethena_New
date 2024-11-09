@@ -31,7 +31,7 @@ const HeroSlider: React.FC = () => {
             <p className="text-center text-xl text-white font-semibold">
               SOFTWARE DEVELOPMENT PARTNERS FOR STARTUPS
             </p>
-            <h1 className="lg:text-[3rem] text-3xl text-center font-semibold text-white mt-12  lg:w-[80%] mx-auto lg:leading-[4.3rem]">
+            <h1 className="lg:text-[3.5rem] text-3xl text-center font-semibold text-white mt-12  lg:w-[80%] mx-auto lg:leading-[4.3rem]">
               Scale faster with{" "}
               <span className="text-[#04E39C] lg:text-[4rem]">high-performing</span> software
               and digital products

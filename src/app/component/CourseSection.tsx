@@ -22,7 +22,7 @@ const CourseSection = () => {
   return (
     <div className="container mx-auto px-4 py-16">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold  text-[#04E39C] ">
+        <h2 className="text-4xl font-bold  text-[#6754c5] ">
           Services built for Startups
         </h2>
         <p className="px-8 md:px-40 text-[#3B3B3B] mt-8">
@@ -32,7 +32,7 @@ const CourseSection = () => {
       </div>
       <div className="flex flex-wrap justify-center gap-8">
         {courses.map((course, index) => (
-          <Card key={index} {...course} index={index}/>
+          <Card key={index} {...course} index={index} />
         ))}
       </div>
     </div>

@@ -71,9 +71,6 @@ const Footer: React.FC = () => {
               <li className="py-1">
                 <Link href="/about">About</Link>
               </li>
-              <li className="py-1">
-                <Link href="/contact">Contact Us</Link>
-              </li>
             </ul>
           </div>
 

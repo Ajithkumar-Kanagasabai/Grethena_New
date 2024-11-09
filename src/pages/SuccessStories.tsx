@@ -6,26 +6,29 @@ import TopSection from '../app/aboutUsPage/TopSection';
 import WhyChooseUs from '../app/aboutUsPage/WhyChooseUs';
 import VisionMission from '../app/aboutUsPage/VisionMission';
 import Philosophy from '../app/aboutUsPage/Philosophy';
+import { Newsletter } from '../app/component/Newsletter';
 
 
 
 
 const SuccessStories = () => {
     // eslint-disable-next-line react-hooks/rules-of-hooks
-    const [selectedCourse, setSelectedCourse] = useState<string>('Full Stack Development');
 
     return (
-        <>
-            <section>
-                    <Header onSelectCourse={setSelectedCourse} />
-                    <TopSection />
-                    <WhyChooseUs />
-                    <VisionMission />
-                    <Philosophy />
-                    <Footer />
-            </section>
-        </>
-    )
+      <>
+        <section>
+          <Header  />
+          <TopSection />
+          <WhyChooseUs />
+          <VisionMission />
+          <Philosophy />
+          <div className="lg:p-0 p-4  ">
+            <Newsletter />
+          </div>
+          <Footer />
+        </section>
+      </>
+    );
 }
 
 export default SuccessStories

@@ -3,6 +3,7 @@ import Image from "next/image";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { HiOutlineCurrencyDollar } from "react-icons/hi2";
 import { SiVitest } from "react-icons/si";
+import { Newsletter } from "./Newsletter";
 
 const features = [
   {
@@ -58,9 +59,9 @@ const FeaturesSection: React.FC = () => {
           </div>
         </div>
       </section>
-      <section className="h-[350px] bg-transparent bg-gradient-to-r from-[#FF7369] to-[#FFB06D] mb-[4rem]">
-
-      </section>
+      <div className="lg:p-0 p-4 ">
+        <Newsletter />
+      </div>
     </>
   );
 };

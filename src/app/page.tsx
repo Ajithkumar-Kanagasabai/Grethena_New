@@ -12,14 +12,12 @@ import Footer from "@/src/app/component/Footer";
 
 
 export default function Home() {
-  const [selectedCourse, setSelectedCourse] = useState<string>(
-    "Full Stack Development"
-  );
+  
 
   return (
     <main>
       <div id="homepage" className="font-Quicksand">
-        <Header onSelectCourse={setSelectedCourse} />
+        <Header  />
         <HeroSlider />
         <IconCarousel />
         <CourseSection />
