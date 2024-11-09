@@ -207,13 +207,13 @@ const Header: React.FC<HeaderProps> = ({ onSelectCourse }) => {
             )}
           </div>
 
-          <Link href="#" className="text-white font-medium">
+          <Link href="/SuccessStories" className="text-white font-medium">
             Success Stories
           </Link>
           <Link href="#" className="text-white font-medium">
             Case Studies
           </Link>
-          <Link href="#" className="text-white font-medium">
+          <Link href="/Gallery" className="text-white font-medium">
             Gallery
           </Link>
           <Link href="/about" className="text-white font-medium">
