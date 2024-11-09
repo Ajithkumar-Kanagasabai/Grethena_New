@@ -169,12 +169,7 @@ const Header: React.FC<HeaderProps> = ({ onSelectCourse }) => {
             </button>
             {isStartupDropdownOpen && (
               <div className="w-[250px] absolute bg-white border mt-1 left-[-1px] rounded shadow-lg z-10 text-[1rem] font-medium">
-                <Link
-                  href="#"
-                  className="block px-3 py-2 text-[#464646] hover:text-black hover:font-semibold "
-                >
-                  Proof Of Concept delelopment(POCs)
-                </Link>
+              
                 <Link
                   href="#"
                   className="block px-3 py-2 text-[#464646] hover:text-black hover:font-semibold"
@@ -192,7 +187,7 @@ const Header: React.FC<HeaderProps> = ({ onSelectCourse }) => {
           </div>
 
           <Link
-            href="#"
+            href="/SuccessStories"
             className="text-white hover:text-black font-bold transition-colors duration-300"
           >
             Success Stories
@@ -210,7 +205,7 @@ const Header: React.FC<HeaderProps> = ({ onSelectCourse }) => {
             Gallery
           </Link>
           <Link
-            href="/about"
+            href="#"
             className="text-white hover:text-black font-bold transition-colors duration-300"
           >
             About Us
