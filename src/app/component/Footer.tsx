@@ -17,7 +17,7 @@ import { HiPhone } from "react-icons/hi2";
 
 const Footer: React.FC = () => {
     return (
-      <footer className="text-white py-8 px-20 bg-gradient-to-r from-[#00e897] via-[#00e897] to-[#6754c5]">
+      <footer className="text-white py-8 px-20 bg-gradient-to-r from-[#00e897] via-[#00e897] to-[#6754c5] ">
         <div className="container mx-auto flex flex-col md:flex-row justify-between">
           <div className="w-[29%]">
             <Link href="/">
@@ -66,7 +66,7 @@ const Footer: React.FC = () => {
                 <Link href="/">Home</Link>
               </li>
               <li className="py-1">
-                <Link href="/course">Courses</Link>
+                <Link href="/Case_Studies">Case Studies</Link>
               </li>
               <li className="py-1">
                 <Link href="/about">About</Link>

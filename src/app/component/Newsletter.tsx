@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Newsletter = () => {
   return (
-    <section className="h-[350px] bg-transparent bg-gradient-to-r from-[#FF7369] to-[#FFB06D] mb-[4rem] lg:rounded-none rounded-lg ">
+    <section className="lg:h-[350px] h-[270px] bg-transparent bg-gradient-to-r from-[#FF7369] to-[#FFB06D] mb-[4rem] mt-11 lg:mt-0 lg:rounded-none rounded-lg ">
       <div className=" lg:flex items-center lg:p-[7rem] p-[1rem] gap-x-3">
         <div className="lg:w-[50%] w-full">
           <h1 className="lg:text-5xl text-xl text-white font-bold lg:mx-0 mx-auto">
