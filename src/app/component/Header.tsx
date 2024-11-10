@@ -90,7 +90,7 @@ const Header: React.FC= () => {
               <div className="w-100 h-px bg-gray-300"></div>
 
               <Link
-                href="/about"
+                href="#"
                 className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
               >
                 Services
@@ -99,35 +99,35 @@ const Header: React.FC= () => {
               <div className="w-100 h-px bg-gray-300"></div>
 
               <Link
-                href="/contact"
+                href="#"
                 className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
               >
                 Startups
               </Link>
               <div className="w-100 h-px bg-gray-300"></div>
               <Link
-                href="/contact"
+                href="/"
                 className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
               >
                 Success Stories
               </Link>
               <div className="w-100 h-px bg-gray-300"></div>
               <Link
-                href="/contact"
+                href="/Case_Studies"
                 className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
               >
                 Case Studies
               </Link>
               <div className="w-100 h-px bg-gray-300"></div>
               <Link
-                href="/contact"
+                href="/Gallery"
                 className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
               >
                 Gallery
               </Link>
               <div className="w-100 h-px bg-gray-300"></div>
               <Link
-                href="/contact"
+                href="/about"
                 className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
               >
                 About Us
