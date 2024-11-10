@@ -3,14 +3,14 @@ import Image from "next/image";
 import booking from '../../../public/assets/Case-Studies/image-1 (1).png'
 export const BookingSection = () => {
   return (
-    <div className="font-Quicksand p-6">
-      <h1 className="text-center text-4xl font-semibold mt-3">
+    <div className="font-Quicksand p-0 lg:p-6">
+      <h1 className="text-center text-4xl font-semibold mt-6">
         BOOKING APPOINTMENTS
       </h1>
-      <div className="lg:h-[600px] lg:flex mt-7 w-full rounded-2xl overflow-hidden ">
+      <div className="lg:h-[600px] lg:flex mt-7 w-full lg:rounded-2xl overflow-hidden ">
         <Image src={booking} alt="booking" className="lg:w-[75%] bg-cover" />
         <div className="bg-[#6754c5] w-full text-white overflow-hidden ">
-          <h1 className="text-center text-4xl font-semibold mt-3 p-4">
+          <h1 className="text-center text-4xl text-nowrap font-semibold mt-3 p-4">
             Project Information
           </h1>
           <div className=" mt-0 lg:mt-6">
@@ -32,15 +32,15 @@ export const BookingSection = () => {
             </div>
             <div className=" flex justify-center items-center border-b-2   ">
               <div className="flex gap-x-[3rem] justify-center   text-xl  font-medium mt-5 lg:w-[80%] mb-6  ">
-                <p className="w-[40%]  text-nowrap text-left">Problem:</p>
-                <p className="lg:mb-10 text-nowrap w-full text-left ml-[2.73rem] lg:ml-0">
+                <p className="lg:w-[40%] w-full  text-nowrap text-left mr-[2.3rem] lg:mr-0">Problem:</p>
+                <p className="lg:mb-10 text-nowrap w-full text-left ml-[0.75rem] lg:ml-0">
                   Booking Appointments
                 </p>
               </div>
             </div>
             <div className=" flex  justify-center  ">
               <div className="flex gap-x-[3rem] justify-center text-xl  font-medium boder mb-6 mt-5 w-[90%] lg:w-[80%]">
-                <p className="w-[40%]  text-left text-nowrap">Client Rating:</p>
+                <p className="w-[40%]  text-left ml-6 lg:ml-0 text-nowrap">Client Rating:</p>
                 <p className="mb-10 text-nowrap w-full text-left ml-[2.75rem] lg:ml-0">
                   777
                 </p>
@@ -50,7 +50,7 @@ export const BookingSection = () => {
         </div>
       </div>
       <div>
-        <article className="lg:px-8">
+        <article className="lg:px-8 px-5">
           <div className="text-[1.4rem] font-normal mt-[6rem] text-gray-700 font-Quicksand">
             <p className="mb-5">
               Established in 2005, London General Practice has been a beacon of

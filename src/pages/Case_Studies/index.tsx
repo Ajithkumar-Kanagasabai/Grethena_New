@@ -17,7 +17,7 @@ const Case_Studies = () => {
   return (
     <section>
       <Header />
-      <div className="h-[900px]">
+      <div className="min-h-[900px]">
         <h1 className="text-center text-5xl mt-8 font-semibold ">
           Our Case Studies
         </h1>
@@ -34,7 +34,7 @@ const Case_Studies = () => {
                   <p>Service:</p>
                 </div>
                 <div>
-                  <p>London General Practice</p>
+                  <p className="text-nowrap">London General Practice</p>
                   <p>Booking Appointments</p>
                 </div>
               </div>
@@ -65,7 +65,7 @@ const Case_Studies = () => {
             onClick={() => router.push("/Case_Studies/parking_management")}
           >
             <div className=" bg-[#6754c5] text-white font-medium w-full mt-[6rem] lg:mt-[24rem] rounded-lg shadow-md">
-              <div className={` mb-5 flex p-5 text-xl space-x-5`}>
+              <div className={` mb-5  flex p-5 text-xl space-x-5`}>
                 <div>
                   <p className="">Client:</p>
                   <p>Service:</p>
@@ -79,7 +79,7 @@ const Case_Studies = () => {
           </div>
         </div>
       </div>
-      <div className="lg:p-0 p-4 ">
+      <div className="lg:p-0 p-4 lg-mt-0 mt-[2rem]">
         <Newsletter />
       </div>
       <Footer />
