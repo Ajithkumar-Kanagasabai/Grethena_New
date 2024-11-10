@@ -210,9 +210,6 @@ const PrivacyPolicy = () => {
     </ul>
 </div>
 </div>
-
-
-
                     <Footer />
             </section>
         </>
