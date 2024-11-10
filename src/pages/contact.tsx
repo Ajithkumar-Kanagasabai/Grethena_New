@@ -14,7 +14,7 @@ const contact = () => {
         <>
             <section>
 
-                    <Header onSelectCourse={setSelectedCourse} />
+                    <Header  />
                     <ContactForm />
                     <Footer />
             </section>
