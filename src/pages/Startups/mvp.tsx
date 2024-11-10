@@ -44,7 +44,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
               <p className="">
                 With a focus on innovation, efficiency, and quality, we make the
                 process straightforward and results-driven. Partner with us, and
-                let's bring your vision to life.”
+                let&apos;s bring your vision to life.”
               </p>
               <p>— Sriram Angajala, CEO of Grethena</p>
               <h1 className="text-3xl font-Quicksand font-semibold text-black">
@@ -53,7 +53,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
               <p>
                 Every MVP project at Grethena is supported by a dedicated
                 project manager, an expert development team, and comprehensive
-                quality assurance. Here's how we deliver an efficient and
+                quality assurance. Here&apos;s how we deliver an efficient and
                 results-driven MVP for your business:
               </p>
               <h1 className="text-3xl font-Quicksand font-semibold text-black">
@@ -72,7 +72,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
               </h1>
               <p>Design with Purpose</p>
               <p>
-                Whether you're starting with a blank slate or have a fully
+                Whether you&apos;re starting with a blank slate or have a fully
                 developed concept, our UX/UI designers ensure your product meets
                 user expectations. We combine extensive research with years of
                 experience to deliver user-friendly, high-performance wireframes
@@ -98,9 +98,10 @@ import { IoIosArrowRoundForward } from "react-icons/io";
                 make data-driven decisions for future iterations.
               </p>
               <p>
-                Turn your vision into a reality with Grethena's MVP expertise
-                under the leadership of CEO Sriram Angajala. Let's build a
-                product that captures attention and accelerates growth.
+                Turn your vision into a reality with Grethena&apos;s MVP
+                expertise under the leadership of CEO Sriram Angajala.
+                Let&apos;s build a product that captures attention and
+                accelerates growth.
               </p>
               <h1 className="text-3xl font-Quicksand font-semibold text-black">
                 Step 5
@@ -126,7 +127,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
                 <li>Get to Market Faster</li>
               </ul>
               <p>
-                In today's data-driven landscape, launching quickly enables
+                In today&apos;s data-driven landscape, launching quickly enables
                 faster learning. The sooner your product is live, the sooner you
                 can gather insights and iterate toward a market-fit solution.
               </p>
