@@ -9,6 +9,8 @@ import Link from "next/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
 import Footer from "../../app/component/Footer";
 
+/* eslint-disable no-console */
+
 const Mobile_app_development = () => {
   return (
     <div>
