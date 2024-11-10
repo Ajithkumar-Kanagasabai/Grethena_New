@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from "next/image";
 import booking from '../../../public/assets/Case-Studies/image-1 (1).png'
+import { FaStar } from "react-icons/fa6";
 export const BookingSection = () => {
   return (
     <div className="font-Quicksand p-0 lg:p-6">
@@ -32,7 +33,9 @@ export const BookingSection = () => {
             </div>
             <div className=" flex justify-center items-center border-b-2   ">
               <div className="flex gap-x-[3rem] justify-center   text-xl  font-medium mt-5 lg:w-[80%] mb-6  ">
-                <p className="lg:w-[40%] w-full  text-nowrap text-left mr-[2.3rem] lg:mr-0">Problem:</p>
+                <p className="lg:w-[40%] w-full  text-nowrap text-left mr-[2.3rem] lg:mr-0">
+                  Problem:
+                </p>
                 <p className="lg:mb-10 text-nowrap w-full text-left ml-[0.75rem] lg:ml-0">
                   Booking Appointments
                 </p>
@@ -40,10 +43,18 @@ export const BookingSection = () => {
             </div>
             <div className=" flex  justify-center  ">
               <div className="flex gap-x-[3rem] justify-center text-xl  font-medium boder mb-6 mt-5 w-[90%] lg:w-[80%]">
-                <p className="w-[40%]  text-left ml-6 lg:ml-0 text-nowrap">Client Rating:</p>
-                <p className="mb-10 text-nowrap w-full text-left ml-[2.75rem] lg:ml-0">
-                  777
+                <p className="w-[40%]  text-left ml-6 lg:ml-0 text-nowrap">
+                  Client Rating:
                 </p>
+                <div className="mb-10 text-nowrap w-full text-left ml-[2.75rem] lg:ml-0">
+                  <div className="flex">
+                    <FaStar className="text-yellow-400" />
+                    <FaStar className="text-yellow-400" />
+                    <FaStar className="text-yellow-400" />
+                    <FaStar className="text-yellow-400" />
+                    <FaStar className="text-yellow-400" />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -91,41 +102,55 @@ export const BookingSection = () => {
             </p>
           </div>
           <div>
-            <h1 className='mt-[4rem] mb-[4rem] text-4xl font-semibold'>Problem Statements</h1>
-            <ul className="list-decimal pl-5">
+            <h1 className="mt-[4rem] mb-[4rem] text-4xl font-semibold">
+              Problem Statements
+            </h1>
+            <ul className="list-decimal pl-5 mt-7 text-[1.4rem] text-gray-700 font-normal flex-col flex gap-y-6">
               <li>
-                Navigating Patient Consultations During a Pandemic: London
-                General Practice faced the challenge of efficiently conducting
-                patient consultations with General Practitioners (GPs) amidst
-                the unprecedented COVID-19 pandemic. The need to adapt to remote
-                consultations while maintaining the quality of care posed a
-                significant hurdle.
+                <span className="font-semibold">
+                  Navigating Patient Consultations During a Pandemic:
+                </span>{" "}
+                London General Practice faced the challenge of efficiently
+                conducting patient consultations with General Practitioners
+                (GPs) amidst the unprecedented COVID-19 pandemic. The need to
+                adapt to remote consultations while maintaining the quality of
+                care posed a significant hurdle.
               </li>
               <li>
-                Emergency GP Consultations: Urgent and emergency situations
-                require immediate access to GP consultations. London General
-                Practice encountered difficulties in ensuring timely
-                consultations for patients in dire need of medical attention.
+                <span className="font-semibold">
+                  Emergency GP Consultations:
+                </span>{" "}
+                Urgent and emergency situations require immediate access to GP
+                consultations. London General Practice encountered difficulties
+                in ensuring timely consultations for patients in dire need of
+                medical attention.
               </li>
               <li>
-                Geographical Accessibility: Patients seeking London General
-                Practice’s services sometimes encountered geographical
-                constraints, making it challenging for them to access the
-                clinic’s facilities conveniently. This issue raised concerns
-                about equitable access to healthcare.
+                <span className="font-semibold">
+                  {" "}
+                  Geographical Accessibility:
+                </span>{" "}
+                Patients seeking London General Practice’s services sometimes
+                encountered geographical constraints, making it challenging for
+                them to access the clinic’s facilities conveniently. This issue
+                raised concerns about equitable access to healthcare.
               </li>
               <li>
-                Time-Consuming Travel and Waiting: Patients often spent a
-                substantial amount of time commuting to the clinic and waiting
-                for their GP appointments. This inefficient process not only
-                inconvenienced patients but also had the potential to disrupt
-                their daily routines.
+                <span className="font-semibold">
+                  Time-Consuming Travel and Waiting:
+                </span>{" "}
+                Patients often spent a substantial amount of time commuting to
+                the clinic and waiting for their GP appointments. This
+                inefficient process not only inconvenienced patients but also
+                had the potential to disrupt their daily routines.
               </li>
             </ul>
           </div>
           <div>
-            <h1>Our Solution</h1>
-            <p>
+            <h1 className="mt-[4rem] mb-[4rem] text-4xl font-semibold">
+              Our Solution
+            </h1>
+            <p className="text-[1.4rem]">
               London General Practice, with the help of Grethena, introduced a
               mobile app solution aimed at revolutionizing the way patients
               access and interact with their healthcare services. This
@@ -134,54 +159,58 @@ export const BookingSection = () => {
               to streamline the patient experience and improve the efficiency of
               healthcare delivery.
             </p>
-            <ul className="list-decimal pl-5">
+            <ul className="list-decimal pl-5 text-[1.4rem] text-gray-700 font-normal flex-col flex gap-y-6 mt-8">
               <li>
-                Booking & Reminders: The core of the solution lies in its
-                ability to empower patients to book appointments seamlessly
-                through the mobile app. Patients can schedule appointments at
-                their convenience, eliminating the need for time-consuming phone
-                calls or in-person visits. Moreover, the app sends timely
-                notification reminders to patients closer to their appointment
-                dates, ensuring that they never miss an important consultation.
+                <span className="font-semibold">Booking & Reminders:</span> The
+                core of the solution lies in its ability to empower patients to
+                book appointments seamlessly through the mobile app. Patients
+                can schedule appointments at their convenience, eliminating the
+                need for time-consuming phone calls or in-person visits.
+                Moreover, the app sends timely notification reminders to
+                patients closer to their appointment dates, ensuring that they
+                never miss an important consultation.
               </li>
               <li>
-                Appointment Integration: The app simplifies the process further
-                by seamlessly integrating with the user’s phone calendar. This
-                feature allows patients to effortlessly save their upcoming
-                appointments, keeping them organized and informed.
+                <span className="font-semibold">Appointment Integration:</span>{" "}
+                The app simplifies the process further by seamlessly integrating
+                with the user’s phone calendar. This feature allows patients to
+                effortlessly save their upcoming appointments, keeping them
+                organized and informed.
               </li>
               <li>
-                Video Conferencing: In response to the challenge of accessing GP
-                consultations during emergency situations and the pandemic, the
-                app facilitates video conferencing. Patients can consult their
-                doctors from the comfort of their homes through secure and
-                convenient video calls, ensuring immediate access to medical
-                care.
+                <span className="font-semibold">Video Conferencing:</span> In
+                response to the challenge of accessing GP consultations during
+                emergency situations and the pandemic, the app facilitates video
+                conferencing. Patients can consult their doctors from the
+                comfort of their homes through secure and convenient video
+                calls, ensuring immediate access to medical care.
               </li>
               <li>
-                Registration & Payments: Each patient benefits from a
-                personalized account within the app, where they can conveniently
-                manage their healthcare information. This not only streamlines
-                administrative processes but also enables hassle-free online
-                payments, enhancing the overall patient experience.
+                <span className="font-semibold">Registration & Payments:</span>{" "}
+                Each patient benefits from a personalized account within the
+                app, where they can conveniently manage their healthcare
+                information. This not only streamlines administrative processes
+                but also enables hassle-free online payments, enhancing the
+                overall patient experience.
               </li>
               <li>
-                Symptom Checker: The app incorporates a virtual GP feature,
-                allowing patients to assess the severity of their symptoms and
-                receive recommendations for appropriate treatment. This empowers
+                <span className="font-semibold">Symptom Checker:</span>
+                The app incorporates a virtual GP feature, allowing patients to
+                assess the severity of their symptoms and receive
+                recommendations for appropriate treatment. This empowers
                 patients with valuable health information and guides them toward
                 suitable next steps.
               </li>
               <li>
-                Reports and Tracking: Patients can access their medical reports
-                directly from the app and share them with their doctors
-                effortlessly. Additionally, the app offers a unique feature that
-                enables patients to track the location of their doctor in case
-                of a scheduled home visit, enhancing transparency and peace of
-                mind.
+                <span className="font-semibold">Reports and Tracking:</span>
+                Patients can access their medical reports directly from the app
+                and share them with their doctors effortlessly. Additionally,
+                the app offers a unique feature that enables patients to track
+                the location of their doctor in case of a scheduled home visit,
+                enhancing transparency and peace of mind.
               </li>
             </ul>
-            <p>
+            <p className="mt-[3rem] text-[1.4rem] text-gray-700 font-normal">
               This mobile app solution represents a significant step forward in
               London General Practice’s commitment to providing swift,
               accessible, and patient-centric healthcare. By leveraging
@@ -190,7 +219,7 @@ export const BookingSection = () => {
               healthcare experience that prioritizes convenience, efficiency,
               and patient well-being.
             </p>
-            <p>
+            <p className="mt-5 text-[1.4rem] text-gray-700 font-normal">
               The implementation of the Grethena’s solution at London General
               Practice has ushered in a new era of healthcare accessibility and
               efficiency.{" "}

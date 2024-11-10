@@ -6,9 +6,8 @@ import "./globals.css";
 import IconCarousel from "@/src/app/component/IconCarousel";
 import CourseSection from "@/src/app/component/CourseSection";
 import FeaturesSection from "@/src/app/component/FeaturesSection";
-import TestimonialSlider from "@/src/app/component/TestimonialSlider";
-import StatsSection from "@/src/app/component/StatsSection";
 import Footer from "@/src/app/component/Footer";
+import { Service_Section } from "./component/Service_Section";
 
 
 export default function Home() {
@@ -21,6 +20,7 @@ export default function Home() {
         <HeroSlider />
         <IconCarousel />
         <CourseSection />
+        <Service_Section />
         <FeaturesSection />
         <Footer />
       </div>

@@ -69,7 +69,7 @@ const Footer: React.FC = () => {
                 <Link href="/Case_Studies">Case Studies</Link>
               </li>
               <li className="py-1">
-                <Link href="/about">About</Link>
+                <Link href="/about">About Us</Link>
               </li>
             </ul>
           </div>
@@ -78,74 +78,16 @@ const Footer: React.FC = () => {
             <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
             <ul className="md:mt-2 flex flex-col justify-center text-white font-semibold">
               <li className="py-1">
-                <Link href="/">Privacy Policy</Link>
+                <Link href="/">Terms of Use</Link>
+              </li>
+              <li className="py-1">
+                <Link href="/PrivacyPolicy">Privacy Policy</Link>
+              </li>
+              <li className="py-1">
+                <Link href="/">Cookie Policy</Link>
               </li>
             </ul>
           </div>
-
-          {/* <div className="flex flex-col mt-8 md:my-4">
-            <h3 className="text-lg font-semibold mb-2">Build an MVP</h3>
-            <ul className="md:mt-2 flex flex-col justify-center text-white">
-              London EC4R 1AP Build an MVP Hire a Developer Case Studies About
-              55
-              <li className="py-1">
-                <Link href="/"></Link>
-              </li>
-              <li className="py-1">
-                <Link href="/course"></Link>
-              </li>
-              <li className="py-1">
-                <Link href="/about">Hire a Developer</Link>
-              </li>
-              <li className="py-1">
-                <Link href="/contact"> Studies</Link>
-              </li>
-            </ul>
-          </div> */}
-
-          {/* <div className="flex flex-col gap-4 mt-8 md:my-4">
-            <h3 className="text-lg font-semibold mb-2">Follow on Instagram</h3>
-            <Link href="https://www.instagram.com/" target="blank">
-              <div className="md:mt-2 flex flex-row gap-4">
-                <div className="relative w-40 h-40 md:w-20 md:h-20 overflow-hidden aspect-w-1 aspect-h-1">
-                  <Image
-                    src={Insta1}
-                    alt="Instagram 1"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-                <div className="relative w-40 h-40 md:w-20 md:h-20 overflow-hidden aspect-w-1 aspect-h-1">
-                  <Image
-                    src={Insta2}
-                    alt="Instagram 2"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-              </div>
-            </Link>
-            <Link href="https://www.instagram.com/" target="blank">
-              <div className="flex flex-row gap-4">
-                <div className="relative w-40 h-40 md:w-20 md:h-20 overflow-hidden aspect-w-1 aspect-h-1">
-                  <Image
-                    src={Insta3}
-                    alt="Instagram 3"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-                <div className="relative w-40 h-40 md:w-20 md:h-20 overflow-hidden aspect-w-1 aspect-h-1">
-                  <Image
-                    src={Insta4}
-                    alt="Instagram 4"
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </div>
-              </div>
-            </Link>
-          </div> */}
           <div className=" ">
             <div className="flex space-x-8 sm:space-x-20 md:space-x-3 xl:space-x-8 mb-6 lg:mb-0 justify-center mt-4">
               <Link href="https://www.facebook.com/" target="blank">
