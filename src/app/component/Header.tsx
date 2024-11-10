@@ -149,9 +149,9 @@ const Header: React.FC= () => {
             />
           </Link>
         </div>
-        <nav className="hidden md:flex space-x-12 text-xl">
+        <nav className="hidden md:flex lg:space-x-12 md:space-x-8 text-xl">
           <div className="relative group" ref={servicesDropdownRef}>
-            <button className="flex items-center text-white font-bold ">
+            <button className="flex items-center text-nowrap text-white font-bold ">
               Services
               <svg
                 className="w-4 h-4 ml-1"
@@ -250,25 +250,25 @@ const Header: React.FC= () => {
 
           <Link
             href="/SuccessStories"
-            className="text-white hover:text-black font-bold transition-colors duration-300"
+            className="text-white text-nowrap hover:text-black font-bold transition-colors duration-300"
           >
             Success Stories
           </Link>
           <Link
             href="/Case_Studies"
-            className="text-white hover:text-black font-bold transition-colors duration-300"
+            className="text-white hover:text-black text-nowrap font-bold transition-colors duration-300"
           >
             Case Studies
           </Link>
           <Link
             href="/Gallery"
-            className="text-white hover:text-black font-bold transition-colors duration-300"
+            className="text-white hover:text-black font-bold text-nowrap transition-colors duration-300"
           >
             Gallery
           </Link>
           <Link
             href="/about"
-            className="text-white hover:text-black font-bold transition-colors duration-300"
+            className="text-white text-nowrap hover:text-black font-bold transition-colors duration-300"
           >
             About Us
           </Link>
@@ -278,7 +278,7 @@ const Header: React.FC= () => {
             href={
               "https://calendly.com/sriram-angajala-grethena/discuss-about-your-new-app-idea?primary_color=00ff1b"
             }
-            className="flex items-center justify-center rounded-md bg-[#6754c5] text-white lg:gap-x-2 gap-x-1 lg:p-3 p-2  lg:ml-6 mr-3 lg:mr-0"
+            className="flex items-center justify-center rounded-md bg-[#6754c5] text-white lg:gap-x-2 gap-x-1 lg:p-3 p-2  lg:ml-6 mr-3 lg:mr-0 text-nowrap md:ml-[4rem]"
           >
             <span className=" font-bold mx-auto">Get in Touch</span>
             <span>
