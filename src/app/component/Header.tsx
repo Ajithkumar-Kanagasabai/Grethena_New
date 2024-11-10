@@ -184,11 +184,11 @@ const Header: React.FC= () => {
 
           {/* desktop view */}
 
-          <Link href="/" passHref className=" flex bg-cover">
+          <Link href="/" passHref className=" flex bg-cover ">
             <Image
               src={Logo}
               alt="Logo"
-              className="h-[4rem] w-[10rem] bg-cover bg-center"
+              className="h-[4.2rem] w-[13rem] bg-cover bg-center"
             />
           </Link>
         </div>
@@ -226,19 +226,19 @@ const Header: React.FC= () => {
                   AI chatbots
                 </Link>
                 <Link
-                  href="/service/AI_ML_Intrgrations"
+                  href="/service/Al_ML_Intrgrations"
                   className="block px-4 py-3 text-[#464646] hover:text-black hover:font-semibold"
                 >
                   AI & ML Integrations
                 </Link>
                 <Link
-                  href="/serviceWebsite_development"
+                  href="/service/Website_development"
                   className="block px-4 py-3 text-[#464646] hover:text-black hover:font-semibold"
                 >
                   Website Development
                 </Link>
                 <Link
-                  href="/service/backend_system_development"
+                  href="/service/Backend_system_development"
                   className="block px-4 py-3 text-[#464646] hover:text-black hover:font-semibold"
                 >
                   Backend System Development

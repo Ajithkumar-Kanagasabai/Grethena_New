@@ -13,7 +13,7 @@ const CourseSection = () => {
         "Build your dream in-house team to work on new or existing projects in as little as 1 week",
     },
     {
-      title: "Proof Of Concept delelopment(POCs)",
+      title: "Proof Of Concept development(POCs)",
       description:
         "At Grethena, we specialize in delivering Proof of Concept (POC) Development to help businesses validate their ideas, test new technologies."
     },

@@ -17,14 +17,14 @@ import { HiPhone } from "react-icons/hi2";
 
 const Footer: React.FC = () => {
     return (
-      <footer className="text-white py-8 px-20 bg-gradient-to-r from-[#00e897] via-[#00e897] to-[#6754c5] ">
+      <footer className="text-white py-8 px-20 bg-gradient-to-r from-[#00e897] via-[#00e897] to-[#6754c5] font-Quicksand ">
         <div className="container mx-auto flex flex-col md:flex-row justify-between">
-          <div className="w-[29%]">
+          <div className="lg:w-[29%] w-full">
             <Link href="/">
               {" "}
               <Image src={Logo} alt="Logo" width={200} height={42} />
             </Link>
-            <div className="mt-6 flex flex-col gap-y-5 ">
+            <div className="mt-6 flex flex-col gap-y-5 text-xl font-semibold ">
               <div className=" flex gap-4">
                 <div className="mt-1">
                   <FaMapMarkerAlt size={20} />
@@ -44,13 +44,13 @@ const Footer: React.FC = () => {
                 </div>
               </div>
 
-              <div className=" flex items-center   gap-4">
+              <div className=" flex items-center  gap-4">
                 <div className="">
                   <HiPhone size={20} />
                 </div>
                 <p>+44 7453 289655</p>
               </div>
-              <div className=" flex items-center   gap-4">
+              <div className=" flex items-center  gap-4">
                 <div className="">
                   <MdEmail size={20} />
                 </div>
@@ -59,35 +59,38 @@ const Footer: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex flex-col mt-8 md:my-4">
-            <h3 className="text-lg font-semibold mb-2">Menu</h3>
-            <ul className="md:mt-2 flex flex-col justify-center text-white font-semibold">
-              <li className="py-1">
-                <Link href="/">Home</Link>
-              </li>
-              <li className="py-1">
-                <Link href="/Case_Studies">Case Studies</Link>
-              </li>
-              <li className="py-1">
-                <Link href="/about">About Us</Link>
-              </li>
-            </ul>
+          <div className="flex  justify-between lg:w-[26%] w-[80%] ">
+            <div className="flex flex-col mt-8 md:my-4 text-xl font-semibold">
+              <h3 className=" mb-2">Menu</h3>
+              <ul className="md:mt-2 flex flex-col justify-center text-white font-semibold">
+                <li className="py-2">
+                  <Link href="/">Home</Link>
+                </li>
+                <li className="py-2">
+                  <Link href="/Case_Studies">Case Studies</Link>
+                </li>
+                <li className="py-2">
+                  <Link href="/about">About Us</Link>
+                </li>
+              </ul>
+            </div>
+
+            <div className="flex flex-col mt-8 md:my-4 text-xl font-semibold ">
+              <h3 className="mb-2">Quick Links</h3>
+              <ul className="md:mt-2 flex flex-col justify-center text-white font-semibold">
+                <li className="py-2">
+                  <Link href="/">Terms of Use</Link>
+                </li>
+                <li className="py-2">
+                  <Link href="/PrivacyPolicy">Privacy Policy</Link>
+                </li>
+                <li className="py-2">
+                  <Link href="/">Cookie Policy</Link>
+                </li>
+              </ul>
+            </div>
           </div>
 
-          <div className="flex flex-col mt-8 md:my-4">
-            <h3 className="text-lg font-semibold mb-2">Quick Links</h3>
-            <ul className="md:mt-2 flex flex-col justify-center text-white font-semibold">
-              <li className="py-1">
-                <Link href="/">Terms of Use</Link>
-              </li>
-              <li className="py-1">
-                <Link href="/PrivacyPolicy">Privacy Policy</Link>
-              </li>
-              <li className="py-1">
-                <Link href="/">Cookie Policy</Link>
-              </li>
-            </ul>
-          </div>
           <div className=" ">
             <div className="flex space-x-8 sm:space-x-20 md:space-x-3 xl:space-x-8 mb-6 lg:mb-0 justify-center mt-4">
               <Link href="https://www.facebook.com/" target="blank">
@@ -106,7 +109,7 @@ const Footer: React.FC = () => {
                 <Image src={Youtube} alt="Youtube Icon" />
               </Link>
             </div>
-            <p className="md:flex text-[12px] mt-5 lg:text-[18px] text-white">
+            <p className="md:flex text-[12px] mt-5 lg:text-[18px] font-Quicksand text-white">
               &copy; 2024 Grethena. All rights reserved by Grethena Ltd.
             </p>
           </div>

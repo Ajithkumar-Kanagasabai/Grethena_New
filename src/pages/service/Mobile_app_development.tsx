@@ -21,7 +21,7 @@ const Mobile_app_development = () => {
         </h1>
         <Image
           src={mobileApp}
-          className="flex bg-cover w-full h-[570px] bg-center shadow-lg"
+          className="flex bg-cover w-full lg:h-[570px] h-[300px] bg-center shadow-lg"
           alt="mobile_app_development"
         />
         <div className="text-[1.5rem] font-medium mt-[5rem] text-gray-700 font-Quicksand">

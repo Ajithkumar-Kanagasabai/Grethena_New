@@ -18,17 +18,17 @@ export const Service_Section = () => {
         "At Grethena, we specialize in delivering Proof of Concept (POC) Development to help businesses validate their ideas, test new technologies.",
     },
     {
-      title: "Proof Of Concept delelopment(POCs)",
+      title: "Proof Of Concept development(POCs)",
       description:
         "At Grethena, we specialize in delivering Proof of Concept (POC) Development to help businesses validate their ideas, test new technologies.",
     },
     {
-      title: "Proof Of Concept delelopment(POCs)",
+      title: "Proof Of Concept development(POCs)",
       description:
         "At Grethena, we specialize in delivering Proof of Concept (POC) Development to help businesses validate their ideas, test new technologies.",
     },
     {
-      title: "Proof Of Concept delelopment(POCs)",
+      title: "Proof Of Concept development(POCs)",
       description:
         "At Grethena, we specialize in delivering Proof of Concept (POC) Development to help businesses validate their ideas, test new technologies.",
     },

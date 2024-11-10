@@ -4,44 +4,43 @@ import { Newsletter } from "../../app/component/Newsletter";
 import Footer from "../../app/component/Footer";
 import "../../app/globals.css";
 import Image from "next/image";
-import CrmImage from "../../../public/assets/Services/CRM.jpg";
+import backendImg from "../../../public/assets/Services/backend_system.jpg";
 import Link from "next/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
-
-const CRM_implementation = () => {
+const Backend_system_development = () => {
   return (
     <div>
       <Header />
       <div className="text-[1.5rem] font-medium mt-[5rem] text-gray-700 font-Quicksand p-6">
         <div className="text-center">
-          <h2 className="text-4xl text-center font-bold mt-[3rem] mb-[2.5rem] text-black">
-            CRM Implementation
+          <h2 className="font-[Quicksand] text-[var(--four-color)] font-bold m-0 mb-4 leading-[1.41666] clear-both text-[32px] pt-[60px] pr-[60px] pb-[60px] pl-[60px]">
+            {" "}
+            Backend System Development
           </h2>
           <Image
-            src={CrmImage}
-            className="flex bg-cover w-full lg:h-[570px] h-[300px] mb-[3.2rem] bg-center shadow-lg "
-            alt="crm"
+            src={backendImg}
+            className="flex  w-full lg:h-[600px] h-[300px] mb-[3.2rem] bg-cover shadow-lg "
+            alt=" backend_system"
           />
         </div>
-        <p className="">
-          Enhancing Customer Relationships Through Intelligent CRM Solutions
-        </p>
+        <p className="">Building the Foundation for Powerful Applications</p>
         <p className="mt-5 mb-5">
-          Customer relationships are the core of your business. Our CRM
-          implementation services focus on creating systems that help you
-          understand and serve your clients better. From tailored integrations
-          to efficient workflow automation, we bring you closer to your
-          customers with data-driven insights and streamlined processes.
+          Behind every high-performing application is a solid backend system.
+          Our backend development services focus on creating robust, scalable
+          systems that support complex workflows and ensure seamless data flow.
+          We design architecture that grows with your business, optimizing for
+          security, scalability, and reliability.
         </p>
         <h1 className="mt-[4rem]  text-[2.8rem] font-semibold text-black">
-          Our CRM Implementation Services Offer:
+          Our Backend Development Services Cover:
         </h1>
         <div className="flex items-center gap-4  mt-[3rem]">
           <div className="bg-[#6754C5] rounded-full w-[2.5rem] lg:w-6 border lg:h-6 flex items-center justify-center ">
             <span className="text-white font-bold text-lg">✓</span>
           </div>
           <p>
-            Custom Configuration: Tailored to fit your unique business needs.
+            Database Management: Secure and efficient storage solutions tailored
+            to your needs.
           </p>
         </div>
         <div className="flex items-center gap-4 mt-[3rem] ">
@@ -49,8 +48,8 @@ const CRM_implementation = () => {
             <span className="text-white font-bold text-lg">✓</span>
           </div>
           <p>
-            Data Migration & Integration: Smooth transitions with minimal
-            disruptions.
+            API Integrations: Seamless connectivity between different systems
+            and services.
           </p>
         </div>
         <div className="flex items-center gap-4 mt-[3rem] ">
@@ -58,7 +57,8 @@ const CRM_implementation = () => {
             <span className="text-white font-bold text-lg">✓</span>
           </div>
           <p>
-            Workflow Automation: Reduce manual tasks and increase productivity.
+            Scalability & Reliability: Architecture that adapts as your business
+            expands.
           </p>
         </div>
         <div className="flex items-center gap-4 mt-[3rem] ">
@@ -66,13 +66,13 @@ const CRM_implementation = () => {
             <span className="text-white font-bold text-lg">✓</span>
           </div>
           <p>
-            Training & Support: Ensuring your team is ready to maximize CRM
-            capabilities.
+            Security & Compliance: Built with industry-leading practices to
+            protect sensitive information.
           </p>
         </div>
         <p className="mt-[3.2rem]">
-          Optimize customer interactions and grow your business with a CRM that
-          works for you.
+          Strengthen your app’s backbone with a backend system that supports
+          seamless functionality. CRM Implementation
         </p>
 
         <div className="mt-[8rem]">
@@ -99,4 +99,4 @@ const CRM_implementation = () => {
   );
 };
 
-export default CRM_implementation;
+export default Backend_system_development;
