@@ -70,7 +70,7 @@ const AI_ML_Intrgrations = () => {
             </div>
             <p>
               Collaboration lies at the heart of our approach, working together
-              to drive innovative AI solutions that meet our clients' needs
+              to drive innovative AI solutions that meet our clients&apos; needs
             </p>
           </div>
           <p className="mt-[3.2rem]">

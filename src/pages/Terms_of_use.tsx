@@ -41,9 +41,10 @@ const Terms_of_use = () => {
               </h1>
               <p>
                 All content, materials, logos, and intellectual property on
-                Grethena's website are owned by Grethena or its licensors. Users
-                may not copy, reproduce, distribute, or use any content for
-                commercial purposes without prior written consent from Grethena.
+                Grethena&apos;s website are owned by Grethena or its licensors.
+                Users may not copy, reproduce, distribute, or use any content
+                for commercial purposes without prior written consent from
+                Grethena.
               </p>
             </div>
             <div className="text-base leading-relaxed space-y-4 text-[24px] text-[#7A7A7A]">
