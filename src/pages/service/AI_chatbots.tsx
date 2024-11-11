@@ -13,7 +13,7 @@ const AI_chatbots = () => {
   return (
     <div>
       <Header />
-      <div className="min-h-[700px] p-8 font-Quicksand">
+      <div className="min-h-[700px] p-8 ">
         <h1 className="text-4xl text-center font-bold mt-[4rem] mb-[2.5rem]">
           AI Chatbots
         </h1>

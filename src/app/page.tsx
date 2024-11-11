@@ -15,7 +15,7 @@ export default function Home() {
 
   return (
     <main>
-      <div id="homepage" className="font-Quicksand">
+      <div id="homepage" className="">
         <Header  />
         <HeroSlider />
         <IconCarousel />

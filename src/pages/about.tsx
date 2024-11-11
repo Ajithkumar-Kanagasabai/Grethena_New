@@ -188,14 +188,26 @@ const about = () => {
                 />
               </div>
               <div className="mt-6 lg:mt-0 lg:w-1/2 text-center lg:text-left">
-                <h3 className="text-2xl font-semibold text-gray-800">
-                  Shaping The Digital Landscape!
-                </h3>
                 <p className="mt-4 text-gray-600">
-                  Our team of experts has years of experience in App, AI, OTT
-                  Platform, and Booking App Development. We are passionate about
-                  helping our clients succeed, and we continuously strive to
-                  innovate and improve in the digital space.
+                  "Exceptional service and outstanding quality! The team here
+                  has a clear commitment to innovation, delivering products that
+                  surpass our expectations every time. Their expertise and
+                  attention to detail have made a significant impact on our
+                  business, and we truly value their dedication to excellence."
+                </p>
+                <p className="mt-4 text-gray-600">
+                  "Working with this team has been a fantastic experience. Their
+                  industry knowledge, professionalism, and responsiveness have
+                  made it easy for us to find exactly what we need. They
+                  consistently go above and beyond, ensuring that every
+                  interaction leaves us fully satisfied."
+                </p>
+                <p className="mt-4 text-gray-600">
+                  "Reliable, forward-thinking, and customer-focused – this
+                  company understands what it takes to provide a great client
+                  experience. Their dedication to quality and innovation in IT
+                  solutions is evident in everything they do. We couldn’t be
+                  happier with our partnership!"
                 </p>
               </div>
             </div>

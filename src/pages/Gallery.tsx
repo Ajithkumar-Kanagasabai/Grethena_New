@@ -17,6 +17,7 @@ import team_get_1 from "../../public/assets/about/img11.jpg";
 import team_get_2 from "../../public/assets/about/img12.jpg";
 import team_get_3 from "../../public/assets/about/img13.jpg";
 import { Newsletter } from "../app/component/Newsletter";
+import team_get_4 from "../../public/assets/about/img14.png";
 
 const Gallery = () => {
   // eslint-disable-next-line react-hooks/rules-of-hooks
@@ -120,6 +121,18 @@ const Gallery = () => {
           <h1 className="text-2xl font-bold mb-4 p-[39px]">
             TEAM GET TOGETHER
           </h1>
+          <div className="p-14 mb--18px ">
+            {/* Third Image */}
+
+            {/* Third Image */}
+            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
+              <Image
+                src={team_get_4}
+                alt="Conference Room"
+                className="w-full border-2 border-[#cfcfcf]"
+              />
+            </div>
+          </div>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pl-[60px] pr-[60px]">
             {/* First Image */}
             <div className="bg-white shadow-lg rounded-lg overflow-hidden">
@@ -147,7 +160,6 @@ const Gallery = () => {
             </div>
           </div>
         </div>
-        
 
         <Footer />
       </section>

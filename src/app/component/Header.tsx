@@ -70,18 +70,16 @@ const Header: React.FC= () => {
 
   return (
     <header className="md:px-[50px] bg-[#04E39C] h-[110px] flex items-center justify-center shadow-[inset_0_0_0_200px_rgba(0,0,0,0.1)]">
-      <div className=" w-full  py-4 flex justify-between items-center">
+      <div className="w-full py-4 flex justify-between items-center">
         <div className="flex items-center space-x-4">
-          <div className="flex md:hidden items-center justify-between">
-            {menuOpen && (
-              <div className="fixed inset-0 bg-black opacity-50 z-10" />
-            )}
-          </div>
-
+          {/* Mobile Menu Icon */}
           <div className="flex md:hidden items-center justify-between">
             <div className="text-2xl cursor-pointer" onClick={toggleMenu}>
               <FaBars />
             </div>
+            {menuOpen && (
+              <div className="fixed inset-0 bg-black opacity-50 z-10" />
+            )}
             <div
               ref={sidebarRef}
               className={`z-20 flex flex-col fixed top-0 left-0 p-4 w-[17rem] h-full bg-gray-900 text-white transition-transform transform ${
@@ -199,15 +197,20 @@ const Header: React.FC= () => {
 
           {/* desktop view */}
 
-          <Link href="/" passHref className=" mb-9 flex bg-cover lg:w-[90%] w-[70%]   ">
-            <Image
-              src={Logo}
-              alt="Logo"
-              className="lg:h-auto lg:w-auto w-[250px] bg-cover bg-center"
-            />
+          <Link href="/" passHref>
+            <div className="flex items-center mb-5">
+              <Image
+                src={Logo}
+                alt="Logo"
+                className="object-contain"
+                width={200} // Adjust width
+                height={50} // Adjust height
+                style={{ height: "auto" }}
+              />
+            </div>
           </Link>
         </div>
-        <nav className="hidden md:flex lg:space-x-12 md:space-x-8 text-2xl ">
+        <nav className="hidden md:flex lg:space-x-12 md:space-x-6 text-xl ">
           <div className="relative group" ref={servicesDropdownRef}>
             <button className="flex items-center text-nowrap text-white font-bold ">
               Services

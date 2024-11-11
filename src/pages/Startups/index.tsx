@@ -5,6 +5,7 @@ import Footer from "../../app/component/Footer";
 import { Newsletter } from "../../app/component/Newsletter";
 import { useRouter } from "next/navigation";
 import mvp from '../../../public/assets/standups/mvp.jpg'
+import pocImg from "../../../public/assets/standups/poc.png";
 
 const Startups = () => {
       const router = useRouter();
@@ -33,6 +34,7 @@ const Startups = () => {
           </div>
           <div
             className="flex flex-col  rounded-lg shadow-md items-center  lg:hover:scale-110 hover:scale-105 duration-300 lg:h-[430px] h-[200px] mt-[4rem]  cursor-pointer p-5 bg-cover"
+            style={{ backgroundImage: `url(${pocImg.src})` }}
             onClick={() => router.push("/Startups/poc")}
           >
             <div className=" bg-[#6754c5] text-white font-medium w-full mt-[8rem] rounded-lg shadow-md lg:mt-[24rem] ">
