@@ -23,7 +23,7 @@ const CourseSection = () => {
   return (
     <div className="container mx-auto px-4 py-16">
       <div className="text-center mb-12">
-        <h2 className="text-4xl font-bold  text-[#6754c5] ">
+        <h2 className="text-4xl font-bold  text-black ">
           Services built for Startups
         </h2>
         <p className="px-8 md:px-40 text-[#3B3B3B] mt-8">
