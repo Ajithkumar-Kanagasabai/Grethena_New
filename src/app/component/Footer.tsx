@@ -74,13 +74,13 @@ const Footer: React.FC = () => {
               <h3 className="mb-2">Quick Links</h3>
               <ul className="md:mt-2 flex flex-col justify-center text-white font-semibold">
                 <li className="py-2">
-                  <Link href="/">Terms of Use</Link>
+                  <Link href="/Terms_of_use">Terms of Use</Link>
                 </li>
                 <li className="py-2">
                   <Link href="/PrivacyPolicy">Privacy Policy</Link>
                 </li>
                 <li className="py-2">
-                  <Link href="/">Cookie Policy</Link>
+                  <Link href="/CookiePolicy">Cookie Policy</Link>
                 </li>
               </ul>
             </div>

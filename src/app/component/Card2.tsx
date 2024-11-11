@@ -8,7 +8,7 @@ interface CardProps {
 
 const Card2: React.FC<CardProps> = ({ title, description, index }) => {
   return (
-    <div className="lg:w-[560px] h-[300px] rounded-lg overflow-hidden  shadow-xl hover:bg-[#6754c5] duration-300 hover:duration-300 hover:text-white">
+    <div className="lg:w-[560px] w-[407.54px] h-[300px] rounded-lg overflow-hidden  shadow-xl hover:bg-[#6754c5] duration-300 hover:duration-300 hover:text-white">
       <div className="px-6 py-6 ">
         <div
           className={`text-center font-bold text-xl mb-2  mx-auto`}
