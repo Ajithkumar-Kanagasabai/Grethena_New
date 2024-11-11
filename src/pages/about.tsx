@@ -7,7 +7,6 @@ import Image from "next/image";
 import team1 from "../../public/assets/about/team1.jpeg";
 import ceo from "../../public/assets/about/ceo.jpg";
 import coo from "../../public/assets/about/coo.png";
-import team2 from "../../public/assets/about/team2.jpeg";
 import { Newsletter } from "../app/component/Newsletter";
 
 const about = () => {
@@ -147,11 +146,7 @@ const about = () => {
             </div>
             <div className="mt-6 flex flex-col items-center lg:flex-row lg:space-x-8">
               <div className="w-full lg:w-1/2 flex justify-center">
-                <Image
-                  src={team2}
-                  alt="Team Photo"
-                  className="bg-transparent h-auto max-w-full border-0 rounded-none shadow-none"
-                />
+                
               </div>
               <div className="mt-6 lg:mt-0 lg:w-1/2 text-center lg:text-left">
                 <h3 className="text-2xl font-semibold text-gray-800">
@@ -189,25 +184,26 @@ const about = () => {
               </div>
               <div className="mt-6 lg:mt-0 lg:w-1/2 text-center lg:text-left">
                 <p className="mt-4 text-gray-600">
-                  "Exceptional service and outstanding quality! The team here
-                  has a clear commitment to innovation, delivering products that
-                  surpass our expectations every time. Their expertise and
+                  &quot;Exceptional service and outstanding quality! The team
+                  here has a clear commitment to innovation, delivering products
+                  that surpass our expectations every time. Their expertise and
                   attention to detail have made a significant impact on our
-                  business, and we truly value their dedication to excellence."
+                  business, and we truly value their dedication to
+                  excellence.&quot;
                 </p>
                 <p className="mt-4 text-gray-600">
-                  "Working with this team has been a fantastic experience. Their
-                  industry knowledge, professionalism, and responsiveness have
-                  made it easy for us to find exactly what we need. They
+                  &quot;Working with this team has been a fantastic experience.
+                  Their industry knowledge, professionalism, and responsiveness
+                  have made it easy for us to find exactly what we need. They
                   consistently go above and beyond, ensuring that every
-                  interaction leaves us fully satisfied."
+                  interaction leaves us fully satisfied.&quot;
                 </p>
                 <p className="mt-4 text-gray-600">
-                  "Reliable, forward-thinking, and customer-focused – this
+                  &quot;Reliable, forward-thinking, and customer-focused – this
                   company understands what it takes to provide a great client
                   experience. Their dedication to quality and innovation in IT
-                  solutions is evident in everything they do. We couldn’t be
-                  happier with our partnership!"
+                  solutions is evident in everything they do. We couldn&quot;t
+                  be happier with our partnership!&quot;
                 </p>
               </div>
             </div>

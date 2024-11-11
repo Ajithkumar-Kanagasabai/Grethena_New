@@ -210,9 +210,9 @@ const Header: React.FC= () => {
             </div>
           </Link>
         </div>
-        <nav className="hidden md:flex lg:space-x-12 md:space-x-6 text-xl ">
-          <div className="relative group" ref={servicesDropdownRef}>
-            <button className="flex items-center text-nowrap text-white font-bold ">
+        <nav className="hidden md:flex lg:space-x-12 md:space-x-6 text-[16px] ">
+          <div className="relative group " ref={servicesDropdownRef}>
+            <button className="flex items-center text-nowrap text-white font-semibold ">
               Services
               <svg
                 className="w-4 h-4 ml-1"
@@ -273,7 +273,7 @@ const Header: React.FC= () => {
           <div className="relative" ref={startupDropdownRef}>
             <button
               onClick={() => router.push("/Startups")}
-              className="flex items-center text-white font-bold hover:text-black transition-colors duration-30"
+              className="flex items-center text-white font-semibold hover:text-black transition-colors duration-30"
             >
               Startups
             </button>
@@ -281,25 +281,25 @@ const Header: React.FC= () => {
 
           <Link
             href="/SuccessStories"
-            className="text-white text-nowrap hover:text-black font-bold transition-colors duration-300"
+            className="text-white text-nowrap hover:text-black font-semibold transition-colors duration-300"
           >
             Success Stories
           </Link>
           <Link
             href="/Case_Studies"
-            className="text-white hover:text-black text-nowrap font-bold transition-colors duration-300"
+            className="text-white hover:text-black text-nowrap font-semibold transition-colors duration-300"
           >
             Case Studies
           </Link>
           <Link
             href="/Gallery"
-            className="text-white hover:text-black font-bold text-nowrap transition-colors duration-300"
+            className="text-white hover:text-black font-semibold text-nowrap transition-colors duration-300"
           >
             Gallery
           </Link>
           <Link
             href="/about"
-            className="text-white text-nowrap hover:text-black font-bold transition-colors duration-300"
+            className="text-white text-nowrap hover:text-black font-semibold transition-colors duration-300"
           >
             About Us
           </Link>
