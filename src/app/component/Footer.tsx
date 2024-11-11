@@ -1,15 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import Logo from '../../../public/assets/logo/Logo.png';
-import Insta1 from "../../../public/assets/Footer/Image Placeholder.png";
-import Insta2 from "../../../public/assets/Footer/Container.png";
-import Insta3 from "../../../public/assets/Footer/Container (1).png";
-import Insta4 from "../../../public/assets/Footer/Container (2).png";
 import Fb from "../../../public/assets/Icons/Facebook.png";
 import Twitter from "../../../public/assets/Icons/Twitter.png";
 import Insta from "../../../public/assets/Icons/Instagram.png";
 import Linkedin from "../../../public/assets/Icons/LinkedIn.png";
-import Youtube from "../../../public/assets/Icons/YouTube.png";
 import Link from 'next/link';
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
@@ -93,20 +88,20 @@ const Footer: React.FC = () => {
 
           <div className=" ">
             <div className="flex space-x-8 sm:space-x-20 md:space-x-3 xl:space-x-8 mb-6 lg:mb-0 justify-center mt-4">
-              <Link href="https://www.facebook.com/" target="blank">
+              <Link href="https://www.facebook.com/grethenaHQ" target="blank">
                 <Image src={Fb} alt="Fb Icon" />
               </Link>
-              <Link href="https://x.com/?lang=en" target="blank">
+              <Link href="https://twitter.com/grethenaHQ" target="blank">
                 <Image src={Twitter} alt="Twitter Icon" />
               </Link>
-              <Link href="https://www.instagram.com/" target="blank">
+              <Link href="https://www.instagram.com/grethenahq/" target="blank">
                 <Image src={Insta} alt="Insta Icon" />
               </Link>
-              <Link href="https://in.linkedin.com/" target="blank">
+              <Link
+                href="https://www.linkedin.com/company/grethena/about/"
+                target="blank"
+              >
                 <Image src={Linkedin} alt="Linkedin Icon" />
-              </Link>
-              <Link href="https://www.youtube.com/" target="blank">
-                <Image src={Youtube} alt="Youtube Icon" />
               </Link>
             </div>
             <p className="md:flex text-[12px] mt-5 lg:text-[18px] font-Quicksand text-white">

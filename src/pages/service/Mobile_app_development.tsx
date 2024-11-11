@@ -61,13 +61,13 @@ const Mobile_app_development = () => {
             <div className="bg-[#6754c5] rounded-full w-[2.5rem] lg:w-6 border lg:h-6 flex items-center justify-center">
               <span className="text-white font-bold text-lg">✓</span>
             </div>
-            <p>We believe in pushing the boundaries of what&apos;s possible.</p>
+            <p>We prioritize the user experience above all else</p>
           </div>
           <div className="flex items-center gap-4 mt-[3rem] ">
             <div className="bg-[#6754c5] rounded-full w-[2.5rem] lg:w-6 border lg:h-6 flex items-center justify-center ">
               <span className="text-white font-bold text-lg">✓</span>
             </div>
-            <p>We believe in pushing the boundaries of what&apos;s possible.</p>
+            <p>We hold ourselves to the highest standards of excellence</p>
           </div>
           <p className="mt-[3.2rem]">
             Over the years, we have spearheaded numerous groundbreaking projects

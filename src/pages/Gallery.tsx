@@ -2,10 +2,6 @@ import React, { useState } from "react";
 import Header from "../app/component/Header";
 import "../app/globals.css";
 import Footer from "../app/component/Footer";
-import TopSection from "../app/aboutUsPage/TopSection";
-import WhyChooseUs from "../app/aboutUsPage/WhyChooseUs";
-import VisionMission from "../app/aboutUsPage/VisionMission";
-import Philosophy from "../app/aboutUsPage/Philosophy";
 import Image from "next/image";
 import Office_Entrance from "../../public/assets/about/img1.jpg";
 import Office_Lounge from "../../public/assets/about/img2.jpg";
@@ -89,16 +85,7 @@ const Gallery = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pl-[60px] pr-[60px] pt-[40px]">
-            {/* First Image */}
-            <div className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <Image
-                src={Office_Room7}
-                alt="Logo"
-                className="w-full border-2 border-[#cfcfcf]"
-              />
-            </div>
-          </div>
+      
         </div>
 
         <div className="p-4 text-center">

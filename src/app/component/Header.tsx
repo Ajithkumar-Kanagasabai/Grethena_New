@@ -11,6 +11,8 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 
 
 const Header: React.FC= () => {
+
+  
   const [isServicesDropdownOpen, setisServicesDropdownOpen] = useState(false);
   const [isStartupDropdownOpen, setisStartupDropdownOpen] = useState(false);
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
@@ -19,6 +21,11 @@ const Header: React.FC= () => {
   const servicesDropdownRef = useRef<HTMLDivElement>(null);
   const languageDropdownRef = useRef<HTMLDivElement>(null);
   const sidebarRef = useRef<HTMLDivElement>(null);
+
+  const [isOpen, setIsOpen] = useState(false);
+   const toggleDropdown = () => { 
+    setIsOpen(!isOpen);
+   }
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
@@ -94,11 +101,19 @@ const Header: React.FC= () => {
                 <Link
                   href="#"
                   className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
+                  onClick={toggleDropdown}
                 >
-                  Services
+                  {" "}
+                  Services{" "}
                 </Link>
                 <div>
-                  <nav className=" flex flex-col">
+                  <nav
+                    className={`flex flex-col transition-all duration-300 ease-in-out ${
+                      isOpen
+                        ? "h-auto max-h-screen opacity-100"
+                        : "h-0 max-h-0 opacity-0"
+                    } overflow-hidden`}
+                  >
                     <Link
                       href="/service/Mobile_app_development"
                       className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold text-left mt-2"
@@ -109,28 +124,28 @@ const Header: React.FC= () => {
                       href="/service/AI_chatbots"
                       className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold text-left mt-1"
                     >
-                      AI chatbots
+                      AI Chatbots
                     </Link>
                     <Link
-                      href="#"
+                      href="/service/Al_ML_Intrgrations"
                       className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold text-left mt-1"
                     >
                       AI & ML Integrations
                     </Link>
                     <Link
-                      href="#"
+                      href="/service/Website_development"
                       className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold text-left mt-1"
                     >
                       Website Development
                     </Link>
                     <Link
-                      href="#"
+                      href="/service/Backend_system_development"
                       className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold text-left mt-1"
                     >
                       Backend System Development
                     </Link>
                     <Link
-                      href="#"
+                      href="/service/CRM_implementation"
                       className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold text-left mt-1"
                     >
                       CRM Implementation
@@ -138,7 +153,7 @@ const Header: React.FC= () => {
                   </nav>
                 </div>
 
-                <div className="w-100 h-px bg-gray-300"></div>
+                <div className="w-100 h-px bg-gray-300 mt-2"></div>
               </div>
 
               <Link
@@ -149,7 +164,7 @@ const Header: React.FC= () => {
               </Link>
               <div className="w-100 h-px bg-gray-300"></div>
               <Link
-                href="/"
+                href="/SuccessStories"
                 className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
               >
                 Success Stories
@@ -223,7 +238,7 @@ const Header: React.FC= () => {
                   href="/service/AI_chatbots"
                   className="block px-4 py-3 text-[#464646] hover:text-black hover:font-semibold"
                 >
-                  AI chatbots
+                  AI Chatbots
                 </Link>
                 <Link
                   href="/service/Al_ML_Intrgrations"

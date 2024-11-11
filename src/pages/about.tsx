@@ -5,6 +5,8 @@ import Footer from "../app/component/Footer";
 
 import Image from "next/image";
 import team1 from "../../public/assets/about/team1.jpeg";
+import ceo from "../../public/assets/about/ceo.jpg";
+import cfo from "../../public/assets/about/coo.jpg";
 import team2 from "../../public/assets/about/team2.jpeg";
 import { Newsletter } from "../app/component/Newsletter";
 
@@ -15,12 +17,44 @@ const about = () => {
     <>
       <section>
         <Header />
-        <div className="bg-white py-8 px-4 sm:px-6 lg:px-8">
+        <div className="bg-white py-8 px-4 sm:px-6 lg:px-8 font-Quicksand">
           <div className="max-w-7xl mx-auto">
             <div className="text-center">
               <h2 className="font-[Quicksand] text-[var(--four-color)] font-bold m-0 mb-4 leading-[1.41666] clear-both text-[32px] pt-[60px] pr-[60px] pb-[60px] pl-[60px]">
                 About Us
               </h2>
+            </div>
+
+            <div className="max-w-7xl mx-auto mt-4">
+              <div className="text-center">
+                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl font-Quicksand">
+                  Our Leadership Team
+                </h2>
+              </div>
+              <div className="mt-6 flex flex-col items-center lg:flex-row lg:justify-evenly ">
+                <div className="mt-[1.7rem]">
+                  <Image
+                    src={ceo}
+                    alt="CEO"
+                    className="rounded-lg shadow-lg w-[400px] h-[345px] "
+                  />
+                  <div className="mt-3 text-xl">
+                    <p className=" font-semibold">Chief Executive Officer</p>
+                    <p>Sriram Angajala</p>
+                  </div>
+                </div>
+                <div className="">
+                  <Image
+                    src={cfo}
+                    alt="COO"
+                    className="rounded-lg shadow-lg w-[400px] h-[345px] flex bg-center mt-5 "
+                  />
+                  <div className="mt-3 text-xl">
+                    <p className="font-semibold">Chief Operating Officer</p>
+                    <p>Saranya Seetharaman</p>
+                  </div>
+                </div>
+              </div>
             </div>
             <div className="mt-6 flex flex-col items-center lg:flex-row lg:space-x-8">
               <div className="w-full lg:w-1/2 flex justify-center ">
@@ -166,6 +200,7 @@ const about = () => {
               </div>
             </div>
           </div>
+
         </div>
 
         <div className="lg:p-0 p-4 ">

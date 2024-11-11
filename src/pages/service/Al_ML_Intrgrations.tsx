@@ -22,24 +22,29 @@ const AI_ML_Intrgrations = () => {
         />
         <div className="text-[1.5rem] font-medium mt-[5rem] text-gray-700 font-Quicksand">
           <p className="">
-            At Grethena, we breathe life into your ideas through our Mobile App
-            Development service. Our team of experts transforms concepts into
-            seamless, user-friendly mobile experiences that stand out in the
-            digital landscape.
+            At Grethena, we understand the transformative potential of AI & ML
+            Integrations in reshaping the future of business. With our dedicated
+            AI app development service, we empower businesses across diverse
+            industries to harness the full potential of artificial intelligence
+            and machine learning technologies to drive growth, enhance
+            efficiency, and deliver unparalleled user experiences.
           </p>
           <p className="mt-5 mb-5">
             We’ve embarked on numerous remarkable projects that have left a
             lasting impact in the world of digital innovation.
           </p>
           <h1 className="mt-[2rem] text-[1.9rem] font-semibold leading text-[#6754c5]">
-            Mobile App Development service is a testament to our commitment to
-            turning visionary concepts into reality.
+            At Grethena, we blend state-of-the-art technologies, deep industry
+            insights, and a client-focused methodology to provide tailored AI
+            and ML integration solutions.
           </h1>
           <p className="mt-[2rem]">
-            From creating intuitive user interfaces that captivate audiences to
-            harnessing the power of cutting-edge technologies like AI and
-            machine learning, we’ve consistently pushed the boundaries of what
-            mobile apps can achieve.
+            AI-powered applications have the remarkable ability to analyze vast
+            amounts of data, uncover valuable insights, and make data-driven
+            decisions in real-time. By leveraging advanced algorithms and
+            predictive analytics, businesses can gain deep insights into
+            customer behavior, market trends, and operational patterns, enabling
+            them to make informed decisions and stay ahead of the competition.
           </p>
           <h1 className="mt-[4rem]  text-[2.8rem] font-semibold text-black">
             Core Values
@@ -57,13 +62,16 @@ const AI_ML_Intrgrations = () => {
             <div className="bg-[#6754c5] rounded-full w-[2.5rem] lg:w-6 border lg:h-6 flex items-center justify-center">
               <span className="text-white font-bold text-lg">✓</span>
             </div>
-            <p>We believe in pushing the boundaries of what&apos;s possible.</p>
+            <p>We embrace culture of lifelong learning and improvement.</p>
           </div>
           <div className="flex items-center gap-4 mt-[3rem] ">
             <div className="bg-[#6754c5] rounded-full w-[2.5rem] lg:w-6 border lg:h-6 flex items-center justify-center ">
               <span className="text-white font-bold text-lg">✓</span>
             </div>
-            <p>We believe in pushing the boundaries of what&apos;s possible.</p>
+            <p>
+              Collaboration lies at the heart of our approach, working together
+              to drive innovative AI solutions that meet our clients' needs
+            </p>
           </div>
           <p className="mt-[3.2rem]">
             Over the years, we have spearheaded numerous groundbreaking projects
@@ -74,10 +82,10 @@ const AI_ML_Intrgrations = () => {
             what mobile apps can achieve.
           </p>
           <p className="mt-[3.2rem] mb-[2rem]">
-            At Grethena, we don’t just develop apps; we craft digital
-            masterpieces that inspire, engage, and elevate your brand to new
-            heights. With us, your vision becomes our mission, and together, we
-            shape the future of mobile innovation.
+            Whether you’re looking to streamline operations, enhance customer
+            engagement, or unlock new revenue streams, our team of seasoned
+            professionals is committed to helping you achieve your goals and
+            unleash the full potential of artificial intelligence.
           </p>
           <div className="mt-[8rem]">
             <div className="w-[220px] mx-auto mb-[8rem]">
