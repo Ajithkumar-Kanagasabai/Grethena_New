@@ -17,14 +17,12 @@ const SuccessStories = () => {
     return (
       <>
         <section>
-          <Header  />
+          <Header />
           <TopSection />
           <WhyChooseUs />
           <VisionMission />
           <Philosophy />
-          <div className="lg:p-0 p-4  ">
-            <Newsletter />
-          </div>
+        
           <Footer />
         </section>
       </>

@@ -11,7 +11,7 @@ const Website_development = () => {
   return (
     <div>
       <Header />
-      <div className="min-h-[700px] p-7">
+      <div className="min-h-[700px] p-8">
         <div className="text-[1.5rem] font-medium mt-[3rem] text-gray-700 font-Quicksand">
           <div className="text-center">
             <h2 className="text-4xl text-center font-bold text-black mt-[2rem] mb-[2.5rem]">
@@ -78,15 +78,15 @@ const Website_development = () => {
             growth.
           </p>
 
-          <div className="mt-[8rem]">
-            <div className="w-[220px] mx-auto mb-[8rem]">
+          <div className="mt-[6rem]">
+            <div className="w-[220px] mx-auto mb-[5rem]">
               <Link
                 href={
                   "https://calendly.com/sriram-angajala-grethena/discuss-about-your-new-app-idea?primary_color=00ff1b"
                 }
-                className="flex items-center justify-center rounded-md bg-[#6754C5] text-white lg:gap-x-2 gap-x-1 lg:p-3 p-2  lg:ml-6 mr-3 lg:mr-0 text-nowrap md:ml-[4rem]"
+                className="flex items-center justify-center rounded-md bg-[#6754c5] text-white lg:gap-x-2 gap-x-1 lg:p-2 p-2  lg:ml-6 mr-3 lg:mr-0 text-nowrap md:ml-[4rem]"
               >
-                <span className=" font-bold mx-auto">Get in Touch</span>
+                <span className=" font-semibold mx-auto">Get in Touch</span>
                 <span>
                   <IoIosArrowRoundForward size={25} className="mx-auto" />
                 </span>
@@ -95,9 +95,7 @@ const Website_development = () => {
           </div>
         </div>
       </div>
-      <div className="lg:p-0 p-4">
-        <Newsletter />
-      </div>
+     
       <Footer />
     </div>
   );

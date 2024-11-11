@@ -10,10 +10,10 @@ const booking_appointments = () => {
   return (
     <>
       <Header />
-     <BookingSection />
-      <div className="lg:p-0 p-4 ">
+      <BookingSection />
+      {/* <div className="lg:p-6 p-4">
         <Newsletter />
-      </div>
+      </div> */}
       <Footer />
     </>
   );

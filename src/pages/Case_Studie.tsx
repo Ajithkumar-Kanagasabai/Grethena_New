@@ -23,9 +23,7 @@ const Case_Studies = () => {
             onClick={() => router.push("/parking_management")}
           >
             <div className=" bg-white w-full mt-[16rem]">
-              <div className={`text-5xl mb-5`}>
-                jjj
-              </div>
+              <div className={`text-5xl mb-5`}>jjj</div>
               <div className="w-[95%] mx-auto">
                 <h3 className="text-xl font-semibold mb-2  text-white">hh</h3>
                 <p className="mt-4 text-gray-800 font-medium">hh</p>
@@ -49,9 +47,7 @@ const Case_Studies = () => {
           </div>
         </div>
       </div>
-      <div className="lg:p-0 p-4 ">
-        <Newsletter />
-      </div>
+      
       <Footer />
     </section>
   );

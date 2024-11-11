@@ -200,12 +200,9 @@ const about = () => {
               </div>
             </div>
           </div>
-
         </div>
 
-        <div className="lg:p-0 p-4 ">
-          <Newsletter />
-        </div>
+       
         <Footer />
       </section>
     </>

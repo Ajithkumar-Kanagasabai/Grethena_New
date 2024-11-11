@@ -11,7 +11,7 @@ const AI_ML_Intrgrations = () => {
   return (
     <>
       <Header />
-      <div className="min-h-[700px] font-Quicksand p-6">
+      <div className="min-h-[700px] font-Quicksand p-8">
         <h1 className="text-4xl text-center font-bold mt-[4rem] mb-[2.5rem]">
           AI & ML Integrations
         </h1>
@@ -87,15 +87,15 @@ const AI_ML_Intrgrations = () => {
             professionals is committed to helping you achieve your goals and
             unleash the full potential of artificial intelligence.
           </p>
-          <div className="mt-[8rem]">
-            <div className="w-[220px] mx-auto mb-[8rem]">
+          <div className="mt-[6rem]">
+            <div className="w-[220px] mx-auto mb-[5rem]">
               <Link
                 href={
                   "https://calendly.com/sriram-angajala-grethena/discuss-about-your-new-app-idea?primary_color=00ff1b"
                 }
-                className="flex items-center justify-center rounded-md bg-[#6754c5] text-white lg:gap-x-2 gap-x-1 lg:p-3 p-2  lg:ml-6 mr-3 lg:mr-0 text-nowrap md:ml-[4rem]"
+                className="flex items-center justify-center rounded-md bg-[#6754c5] text-white lg:gap-x-2 gap-x-1 lg:p-2 p-2  lg:ml-6 mr-3 lg:mr-0 text-nowrap md:ml-[4rem]"
               >
-                <span className=" font-bold mx-auto">Get in Touch</span>
+                <span className=" font-semibold mx-auto">Get in Touch</span>
                 <span>
                   <IoIosArrowRoundForward size={25} className="mx-auto" />
                 </span>
@@ -104,9 +104,9 @@ const AI_ML_Intrgrations = () => {
           </div>
         </div>
       </div>
-      <div className="lg:p-0 p-4">
+      {/* <div className="lg:p-6 p-4">
         <Newsletter />
-      </div>
+      </div> */}
       <Footer />
     </>
   );

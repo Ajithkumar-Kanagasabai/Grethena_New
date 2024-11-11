@@ -1,8 +1,6 @@
 import React from "react";
 import About1 from "../../../public/assets/about/Banner.jpg";
 import About2 from "../../../public/assets/about/Rectangle 3.png";
-import About3 from "../../../public/assets/about/Rectangle 4.png";
-import About4 from "../../../public/assets/about/Rectangle 5.png";
 import Ramsy_Health_Care from "../../../public/assets/about/Ramsy_Health_Care.png";
 import Barndcenter from "../../../public/assets/about/Barndcenter.png";
 import Sixt_Leasing from "../../../public/assets/about/Sixt_Leasing.png";
@@ -15,9 +13,7 @@ const TopSection: React.FC = () => {
         <h2 className="text-2xl md:text-4xl font-bold text-center mb-6">
           Success Stories
         </h2>
-        {/* <div className="h-1 w-8 bg-[#316B89] mb-1 ml-6"></div>
-                <div className="h-1 w-16 bg-[#20C997] mb-1"></div>
-                <div className="h-1 w-4 bg-[#316B89] mb-4"></div> */}
+
         <p className="text-lg md:text-xl mt-8 text-center">
           Fueling Success Stories, From Pioneering Industry Leaders To Aspiring
           Startups!
@@ -96,10 +92,7 @@ const TopSection: React.FC = () => {
             </li>
           </ul>
 
-          {/* <h3 className="text-xl md:text-2xl font-semibold text-gray-700 mb-4">Who We Are</h3>
-                    <p className="text-gray-600">
-                        We are a passionate and innovative team committed to fostering a community of skilled IT professionals. Our comprehensive six-month courses are designed to equip our students with the latest industry-relevant skills, ensuring they are well-prepared to thrive in the fast-paced tech landscape.
-                    </p> */}
+        
         </div>
       </section>
 
@@ -156,7 +149,7 @@ const TopSection: React.FC = () => {
           <div className="h-1 w-16 bg-[#20C997] mb-1"></div>
           <div className="h-1 w-4 bg-[#316B89] mb-4"></div>
 
-          {/* <h3 className="text-xl md:text-2xl font-semibold text-gray-700 mb-4 mt-8">Our Mission</h3> */}
+         
           <ul className="list-inside text-gray-600 space-y-2">
             <li className="font-quicksand font-medium">
               Myco, powered by MContent, revolutionizes the web3 landscape as a
@@ -177,10 +170,7 @@ const TopSection: React.FC = () => {
             </li>
           </ul>
 
-          {/* <h3 className="text-xl md:text-2xl font-semibold text-gray-700 mb-4">Who We Are</h3>
-                    <p className="text-gray-600">
-                        We are a passionate and innovative team committed to fostering a community of skilled IT professionals. Our comprehensive six-month courses are designed to equip our students with the latest industry-relevant skills, ensuring they are well-prepared to thrive in the fast-paced tech landscape.
-                    </p> */}
+        
         </div>
       </section>
       <section className="px-4 md:px-20 mt-8 bg-white grid grid-cols-1 lg:grid-cols-2 items-center gap-x-4">

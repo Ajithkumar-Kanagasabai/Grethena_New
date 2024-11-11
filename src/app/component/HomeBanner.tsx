@@ -53,17 +53,6 @@ const HeroSlider: React.FC = () => {
                   </span>
                 </Link>
               </div>
-              <div>
-                <Link
-                  href={"#"}
-                  className="flex items-center justify-center rounded-md bg-white text-[#6754c5] border-[#6754c5] border-2 gap-x-1 p-3"
-                >
-                  <span className=" font-bold">What we do</span>
-                  <span>
-                    <IoIosArrowRoundForward size={25} />
-                  </span>
-                </Link>
-              </div>
             </div>
           </div>
         </div>

@@ -8,9 +8,10 @@ import Footer from "@/src/app/component/Footer";
   return (
     <div>
       <Header />
-      <div className="lg:p-0 p-4 ">
-        <Newsletter />
+      <div className='min-h-[700px] p-8'>
+
       </div>
+      
       <Footer />
     </div>
   );

@@ -79,9 +79,9 @@ const Case_Studies = () => {
           </div>
         </div>
       </div>
-      <div className="lg:p-0 p-4 lg-mt-0 mt-[2rem]">
+      {/* <div className="lg:p-6 p-4 lg-mt-0 mt-[2rem]">
         <Newsletter />
-      </div>
+      </div> */}
       <Footer />
     </section>
   );

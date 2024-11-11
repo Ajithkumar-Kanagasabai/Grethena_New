@@ -44,7 +44,7 @@ const WhyChooseUs: React.FC = () => {
 
                 <div className="w-100 h-px bg-gray-300 my-4 lg:hidden"></div>
 
-                {/* <div className="w-px h-100 bg-black hidden lg:flex"></div> */}
+              
 
 
                 <div className="flex flex-col items-center px-2">
@@ -57,7 +57,7 @@ const WhyChooseUs: React.FC = () => {
 
                 <div className="w-100 h-px bg-gray-300 my-4 lg:hidden"></div>
 
-                {/* <div className="w-px h-100 bg-black hidden lg:flex"></div> */}
+             
 
 
                 <div className="flex flex-col items-center px-2">
@@ -70,7 +70,6 @@ const WhyChooseUs: React.FC = () => {
 
                 <div className="w-100 h-px bg-gray-300 my-4 lg:hidden"></div>
 
-                {/* <div className="w-px h-100 bg-black hidden lg:flex"></div> */}
 
 
                 <div className="flex flex-col items-center px-2">
@@ -84,8 +83,7 @@ const WhyChooseUs: React.FC = () => {
 
             <div className="w-100 h-px bg-gray-300 my-4 lg:hidden"></div>
 
-            {/* <div className="w-px h-100 bg-black hidden lg:flex"></div> */}
-
+        
 
             <p className="text-gray-600 mt-12 text-center mx-auto">
                 At Grethena, we aim to help Latin American talent land remote jobs with UK clients. We have established strong alliances with local companies eager to onboard our alumni, providing them immediate opportunities to apply their newly acquired skills. You gain access to industry connections and real-world job prospects by choosing us, ensuring a smooth transition from training to employment.

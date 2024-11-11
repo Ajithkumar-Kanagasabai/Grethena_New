@@ -11,9 +11,9 @@ const ott = () => {
     <>
       <Header />
       <OTTSeaction />
-      <div className="lg:p-0 p-4 ">
+      {/* <div className="lg:p-6 p-4">
         <Newsletter />
-      </div>
+      </div> */}
       <Footer />
     </>
   );

@@ -11,10 +11,10 @@ const parking_management = () => {
   return (
     <>
       <Header />
-    <ParkingSection />
-      <div className="lg:p-0 p-4 ">
+      <ParkingSection />
+      {/* <div className="lg:p-6 p-4">
         <Newsletter />
-      </div>
+      </div> */}
       <Footer />
     </>
   );

@@ -27,7 +27,7 @@ const Gallery = () => {
   return (
     <>
       <section>
-        <Header  />
+        <Header />
         <div className="p-4 text-center">
           <h1 className="text-2xl font-bold mb-4 p-[39px]">GALLERY & EVENTS</h1>
           <h2 className="text-2xl font-bold mb-4 pb-[30px]">OUR OFFICE</h2>
@@ -84,8 +84,6 @@ const Gallery = () => {
               />
             </div>
           </div>
-
-      
         </div>
 
         <div className="p-4 text-center">
@@ -149,9 +147,7 @@ const Gallery = () => {
             </div>
           </div>
         </div>
-        <div className="lg:p-0 p-4 ">
-          <Newsletter />
-        </div>
+        
 
         <Footer />
       </section>

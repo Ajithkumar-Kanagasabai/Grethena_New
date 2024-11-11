@@ -306,7 +306,7 @@ const Header: React.FC= () => {
             href={
               "https://calendly.com/sriram-angajala-grethena/discuss-about-your-new-app-idea?primary_color=00ff1b"
             }
-            className="flex items-center justify-center rounded-md bg-[#6754c5] text-white lg:gap-x-2 gap-x-1 lg:p-3 p-2  lg:ml-6 mr-3 lg:mr-0 text-nowrap md:ml-[4rem]"
+            className="flex items-center justify-center rounded-md bg-[#6754c5] text-white lg:gap-x-1 gap-x-1 lg:p-3 p-2  lg:ml-6 mr-3 lg:mr-0 text-nowrap md:ml-[4rem]"
           >
             <span className=" font-bold mx-auto">Get in Touch</span>
             <span>

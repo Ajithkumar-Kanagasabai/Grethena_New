@@ -5,7 +5,8 @@ const CourseSection = () => {
   const courses = [
     {
       title: "MVP Development",
-      description: "Investor-ready MVP development in just 8 weeks",
+      description:
+        "With a focus on innovation, efficiency, and quality, we make the process straightforward and results-driven. Partner with us, and let's bring your vision to life.",
     },
     {
       title: "Hire our Developers",
@@ -15,7 +16,7 @@ const CourseSection = () => {
     {
       title: "Proof Of Concept development(POCs)",
       description:
-        "At Grethena, we specialize in delivering Proof of Concept (POC) Development to help businesses validate their ideas, test new technologies."
+        "At Grethena, we specialize in delivering Proof of Concept (POC) Development to help businesses validate their ideas, test new technologies.",
     },
   ];
 

@@ -59,9 +59,7 @@ const FeaturesSection: React.FC = () => {
           </div>
         </div>
       </section>
-      <div className="lg:p-0 p-4 ">
-        <Newsletter />
-      </div>
+      
     </>
   );
 };

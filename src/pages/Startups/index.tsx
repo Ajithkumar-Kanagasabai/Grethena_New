@@ -47,9 +47,9 @@ const Startups = () => {
           </div>
         </div>
       </div>
-      <div className="lg:p-0 p-4 ">
+      {/* <div className="lg:p-0 p-4 ">
         <Newsletter />
-      </div>
+      </div> */}
       <Footer />
     </div>
   );

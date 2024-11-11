@@ -186,9 +186,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
           </article>
         </div>
       </div>
-      <div className="lg:p-0 p-4 ">
-        <Newsletter />
-      </div>
+     
       <Footer />
     </div>
   );
