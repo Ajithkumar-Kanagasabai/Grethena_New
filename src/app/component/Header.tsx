@@ -70,7 +70,7 @@ const Header: React.FC= () => {
 
   return (
     <header className="md:px-[50px] bg-[#04E39C] h-[110px] flex items-center justify-center shadow-[inset_0_0_0_200px_rgba(0,0,0,0.1)]">
-      <div className="w-full  py-4 flex justify-between items-center">
+      <div className=" w-full  py-4 flex justify-between items-center">
         <div className="flex items-center space-x-4">
           <div className="flex md:hidden items-center justify-between">
             {menuOpen && (
@@ -199,15 +199,15 @@ const Header: React.FC= () => {
 
           {/* desktop view */}
 
-          <Link href="/" passHref className=" flex bg-cover ">
+          <Link href="/" passHref className=" mb-9 flex bg-cover lg:w-[90%] w-[70%]   ">
             <Image
               src={Logo}
               alt="Logo"
-              className="h-[4.2rem] w-[13rem] bg-cover bg-center"
+              className="lg:h-auto lg:w-auto w-[250px] bg-cover bg-center"
             />
           </Link>
         </div>
-        <nav className="hidden md:flex lg:space-x-12 md:space-x-8 text-xl">
+        <nav className="hidden md:flex lg:space-x-12 md:space-x-8 text-2xl ">
           <div className="relative group" ref={servicesDropdownRef}>
             <button className="flex items-center text-nowrap text-white font-bold ">
               Services
@@ -306,7 +306,7 @@ const Header: React.FC= () => {
             href={
               "https://calendly.com/sriram-angajala-grethena/discuss-about-your-new-app-idea?primary_color=00ff1b"
             }
-            className="flex items-center justify-center rounded-md bg-[#6754c5] text-white lg:gap-x-1 gap-x-1 lg:p-3 p-2  lg:ml-6 mr-3 lg:mr-0 text-nowrap md:ml-[4rem]"
+            className="flex items-center justify-center rounded-md bg-[#6754c5] text-white lg:gap-x-1 gap-x-1 lg:p-3 p-2  lg:ml-6 mr-3 lg:mr-0 text-nowrap md:ml-[4rem] w-auto h-auto"
           >
             <span className=" font-bold mx-auto">Get in Touch</span>
             <span>

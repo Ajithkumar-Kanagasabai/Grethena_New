@@ -6,7 +6,7 @@ import Footer from "../app/component/Footer";
 import Image from "next/image";
 import team1 from "../../public/assets/about/team1.jpeg";
 import ceo from "../../public/assets/about/ceo.jpg";
-import cfo from "../../public/assets/about/coo.jpg";
+import coo from "../../public/assets/about/coo.png";
 import team2 from "../../public/assets/about/team2.jpeg";
 import { Newsletter } from "../app/component/Newsletter";
 
@@ -36,7 +36,7 @@ const about = () => {
                   <Image
                     src={ceo}
                     alt="CEO"
-                    className="rounded-lg shadow-lg w-[400px] h-[345px] "
+                    className="rounded-lg shadow-lg w-[400px] h-[370px]"
                   />
                   <div className="mt-3 text-xl">
                     <p className=" font-semibold">Chief Executive Officer</p>
@@ -45,9 +45,9 @@ const about = () => {
                 </div>
                 <div className="">
                   <Image
-                    src={cfo}
+                    src={coo}
                     alt="COO"
-                    className="rounded-lg shadow-lg w-[400px] h-[345px] flex bg-center mt-5 "
+                    className="rounded-lg shadow-lg w-[400px] h-[370px] flex bg-center mt-5 "
                   />
                   <div className="mt-3 text-xl">
                     <p className="font-semibold">Chief Operating Officer</p>
@@ -202,7 +202,6 @@ const about = () => {
           </div>
         </div>
 
-       
         <Footer />
       </section>
     </>

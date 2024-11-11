@@ -3,7 +3,7 @@ import About1 from "../../../public/assets/about/Banner.jpg";
 import About2 from "../../../public/assets/about/Rectangle 3.png";
 import Ramsy_Health_Care from "../../../public/assets/about/Ramsy_Health_Care.png";
 import Barndcenter from "../../../public/assets/about/Barndcenter.png";
-import Sixt_Leasing from "../../../public/assets/about/Sixt_Leasing.png";
+import Sixt_Leasing from "../../../public/assets/about/newImg2.png";
 import Image from "next/image";
 
 const TopSection: React.FC = () => {
