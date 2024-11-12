@@ -5,6 +5,7 @@ import { MdOutlineMobileFriendly } from "react-icons/md";
 import { BsRobot } from "react-icons/bs";
 import { TbRotate3D } from "react-icons/tb";
 import { TbServerCog } from "react-icons/tb";
+import { RiCustomerService2Line } from "react-icons/ri";
 
 export const Service_Section = () => {
   const courses = [
@@ -43,7 +44,7 @@ export const Service_Section = () => {
       title: "CRM Implementation",
       description:
         "CRM Implementation optimizes customer management and business operations.",
-      logo: <LuBrainCircuit size={35} />,
+      logo: <RiCustomerService2Line size={35} />,
     },
   ];
   return (
