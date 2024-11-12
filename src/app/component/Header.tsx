@@ -204,7 +204,7 @@ const Header: React.FC = () => {
               </Link>
 
               <Link
-                href="/projects"
+                href="/projects/"
                 className=" text-[#FFFFFF] hover:text-[#20C997] hover:font-bold "
               >
                 Success Stories
