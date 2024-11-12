@@ -3,7 +3,7 @@ import Header from "@/src/app/component/Header";
 import "../../app/globals.css";
 import { Newsletter } from "@/src/app/component/Newsletter";
 import Footer from "@/src/app/component/Footer";
-import pocImg from '../../../public/assets/standups/poc.png'
+import pocImg from '../../../public/assets/standups/poc2.png'
 import Image from "next/image";
 
 const poc = () => {
@@ -15,7 +15,7 @@ const poc = () => {
           <div className="lg:flex  gap-x-7 items-center">
             <Image
               src={pocImg}
-              className=" rounded-lg mt-4  mx-auto"
+              className=" rounded-lg mt-4  mx-auto w-[600px] h-[400px] bg-center"
               alt="poc"
             />
             <div>

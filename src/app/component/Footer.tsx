@@ -82,7 +82,7 @@ const Footer: React.FC = () => {
                   <Link href="/PrivacyPolicy">Privacy Policy</Link>
                 </li>
                 <li className="py-2">
-                  <Link href="/CookiePolicy">Cookie Policy</Link>
+                  <Link href="/CookiesPolicy">Cookies Policy</Link>
                 </li>
               </ul>
             </div>

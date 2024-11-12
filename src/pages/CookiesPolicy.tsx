@@ -2,14 +2,14 @@ import React from "react";
 import Header from "../app/component/Header";
 import "../app/globals.css";
 import Footer from "../app/component/Footer";
-const CookiePolicy = () => {
+const CookiesPolicy = () => {
   return (
     <section>
       <Header />
       <div className="m-0 mx-12 text-[24px] text-[#7A7A7A] mb-9">
         <div className="text-center">
           <h2 className=" font-Quicksand text-[#303142] font-bold m-0 mb-4 leading-[1.41666] clear-both text-[32px] pt-[60px] pr-[60px] pb-[60px] pl-[60px]">
-            COOKIE POLICY
+            COOKIES POLICY
           </h2>
         </div>
         <div className="text-base leading-relaxed space-y-4 text-[24px] text-[#7A7A7A]">
@@ -119,4 +119,4 @@ const CookiePolicy = () => {
   );
 };
 
-export default CookiePolicy;
+export default CookiesPolicy;

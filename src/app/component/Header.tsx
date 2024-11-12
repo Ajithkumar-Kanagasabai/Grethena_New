@@ -8,11 +8,7 @@ import { useRouter } from "next/navigation";
 
 import { IoIosArrowRoundForward } from "react-icons/io";
 
-
-
-const Header: React.FC= () => {
-
-  
+const Header: React.FC = () => {
   const [isServicesDropdownOpen, setisServicesDropdownOpen] = useState(false);
   const [isStartupDropdownOpen, setisStartupDropdownOpen] = useState(false);
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
@@ -23,14 +19,14 @@ const Header: React.FC= () => {
   const sidebarRef = useRef<HTMLDivElement>(null);
 
   const [isOpen, setIsOpen] = useState(false);
-   const toggleDropdown = () => { 
+  const toggleDropdown = () => {
     setIsOpen(!isOpen);
-   }
+  };
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
   };
-    const router = useRouter();
+  const router = useRouter();
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -40,12 +36,12 @@ const Header: React.FC= () => {
       ) {
         setisServicesDropdownOpen(false);
       }
-       if (
-         startupDropdownRef.current &&
-         !startupDropdownRef.current.contains(event.target as Node)
-       ) {
-         setisStartupDropdownOpen(false);
-       }
+      if (
+        startupDropdownRef.current &&
+        !startupDropdownRef.current.contains(event.target as Node)
+      ) {
+        setisStartupDropdownOpen(false);
+      }
       if (
         languageDropdownRef.current &&
         !languageDropdownRef.current.contains(event.target as Node)
@@ -66,14 +62,12 @@ const Header: React.FC= () => {
     };
   }, []);
 
-
-
   return (
     <header className="md:px-[50px] bg-[#04E39C] h-[85px] flex items-center justify-center shadow-[inset_0_0_0_200px_rgba(0,0,0,0.1)]">
       <div className=" relative container  flex justify-between items-center">
         <div className="flex items-center space-x-4">
           <Link href="/" passHref className=" mr-[2rem]">
-            <div className="flex items-center mb-5 w-48">
+            <div className="flex items-center mb-2 mt-3 w-48">
               <Image
                 src={Logo}
                 alt="Logo"
@@ -210,7 +204,7 @@ const Header: React.FC= () => {
               </Link>
 
               <Link
-                href="/SuccessStories"
+                href="/projects"
                 className=" text-[#FFFFFF] hover:text-[#20C997] hover:font-bold "
               >
                 Success Stories
@@ -313,7 +307,7 @@ const Header: React.FC= () => {
             </div>
 
             <Link
-              href="/SuccessStories"
+              href="/projects"
               className="text-white text-nowrap hover:text-black font-semibold transition-colors duration-300"
             >
               Success Stories

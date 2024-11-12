@@ -3,7 +3,7 @@ import Header from "@/src/app/component/Header";
 import "../../app/globals.css";
 import Footer from "@/src/app/component/Footer";
 import { Newsletter } from "@/src/app/component/Newsletter";
-import mvpImage2 from "../../../public/assets/standups/mvp2.jpg";
+import mvpImage2 from "../../../public/assets/standups/mvp.jpg";
 import Image from "next/image";
 import Link from "next/link";
 import { IoIosArrowRoundForward } from "react-icons/io";
@@ -13,23 +13,34 @@ import { IoIosArrowRoundForward } from "react-icons/io";
     <div>
       <Header />
       <div className="min-h-[700px] px-8">
-        <Image src={mvpImage2} className=" rounded-lg mt-4" alt="mvp" />
+        <div className="lg:flex  gap-x-7 items-center">
+          <div>
+            <Image
+              src={mvpImage2}
+              className="rounded-lg mt-4 bg-cover bg-center"
+              alt="mvp"
+            />
+          </div>
+          <div className='w-[80%] mt-4'>
+            <h1 className="text-3xl font-Quicksand font-semibold">
+              Build an MVP in 8 Weeks with Grethena
+            </h1>
+            <p className="mb-5">
+              Accelerate Your Idea to Market with Confidence
+            </p>
+            <p className="mb-5">Trusted by Innovators Worldwide</p>
+            <p className="mb-5">
+              Our team has helped ambitious startups and established enterprises
+              transform their ideas into fully functional MVPs that drive growth
+              and engagement. Join a community of successful founders who have
+              taken their first step with Grethena.
+            </p>
+          </div>
+        </div>
         <div className=" mt-[3rem]">
-          <h1 className="text-3xl font-Quicksand font-semibold">
-            Build an MVP in 8 Weeks with Grethena
-          </h1>
+
           <article className="">
             <div className="text-[1.4rem] font-normal mt-[3rem] text-gray-700 font-Quicksand flex flex-col gap-y-8">
-              <p className="mb-5">
-                Accelerate Your Idea to Market with Confidence
-              </p>
-              <p className="mb-5">Trusted by Innovators Worldwide</p>
-              <p className="mb-5">
-                Our team has helped ambitious startups and established
-                enterprises transform their ideas into fully functional MVPs
-                that drive growth and engagement. Join a community of successful
-                founders who have taken their first step with Grethena.
-              </p>
               <h1 className="text-3xl font-Quicksand font-semibold text-black">
                 A Message from Our CEO
               </h1>
@@ -186,7 +197,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
           </article>
         </div>
       </div>
-     
+
       <Footer />
     </div>
   );

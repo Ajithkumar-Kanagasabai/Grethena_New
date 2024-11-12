@@ -1,5 +1,7 @@
 import React from "react";
 import Card from "./Card";
+import { MdOutlineSettingsSuggest } from "react-icons/md";
+import { HiOutlineLightBulb } from "react-icons/hi";
 
 const CourseSection = () => {
   const courses = [
@@ -7,12 +9,14 @@ const CourseSection = () => {
       title: "MVP Development",
       description:
         "With a focus on innovation, efficiency, and quality, we make the process straightforward and results-driven. Partner with us, and let's bring your vision to life.",
+      logo: <MdOutlineSettingsSuggest size={35} />,
     },
 
     {
       title: "Proof Of Concept development(POCs)",
       description:
         "At Grethena, we specialize in delivering Proof of Concept (POC) Development to help businesses validate their ideas, test new technologies.",
+      logo: <HiOutlineLightBulb size={35} />,
     },
   ];
 
