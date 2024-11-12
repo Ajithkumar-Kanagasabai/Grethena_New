@@ -33,26 +33,28 @@ const HeroSlider: React.FC = () => {
             </p>
             <h1 className="lg:text-[3.5rem] text-3xl text-center font-semibold text-white mt-12  lg:w-[80%] mx-auto lg:leading-[4.3rem]">
               Scale faster with{" "}
-              <span className="text-[#04E39C] lg:text-[4rem]">high-performing</span> software
-              and digital products
+              <span className="text-[#04E39C] lg:text-[4rem]">
+                high-performing
+              </span>{" "}
+              software and digital products
             </h1>
             <p className="text-center text-xl text-white font-semibold mt-[3rem] leading-5">
               Leading software development partner for UK startups
             </p>
-            <div className="flex justify-center gap-x-4 mt-[2.5rem]">
-              <div>
-                <Link
-                  href={
-                    "https://calendly.com/sriram-angajala-grethena/discuss-about-your-new-app-idea?primary_color=00ff1b"
-                  }
-                  className="flex items-center justify-center rounded-md bg-[#6754c5] border-[#6754c5] border-2 text-white gap-x-1 p-3 mx-auto "
-                >
-                  <span className=" font-bold">Get in Touch</span>
-                  <span>
-                    <IoIosArrowRoundForward size={25} />
-                  </span>
-                </Link>
-              </div>
+            <div className="w-[8rem] lg:w-[9rem] h-[2.6rem] lg:h-[3rem] mx-auto mt-[3rem] ">
+              <Link
+                href={
+                  "https://calendly.com/sriram-angajala-grethena/discuss-about-your-new-app-idea?primary_color=00ff1b"
+                }
+                className="flex items-center justify-center rounded-md bg-[#6754c5] text-white h-full px-2"
+              >
+                <span className=" font-semibold text-sm mx-auto text-nowrap">
+                  Get in Touch
+                </span>
+                <span>
+                  <IoIosArrowRoundForward size={19} className="mx-auto" />
+                </span>
+              </Link>
             </div>
           </div>
         </div>

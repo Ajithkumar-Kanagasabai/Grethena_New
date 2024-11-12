@@ -70,7 +70,7 @@ const Header: React.FC= () => {
 
   return (
     <header className="md:px-[50px] bg-[#04E39C] h-[110px] flex items-center justify-center shadow-[inset_0_0_0_200px_rgba(0,0,0,0.1)]">
-      <div className=" relative container flex justify-between items-center">
+      <div className=" relative container  flex justify-between items-center">
         <div className="flex items-center space-x-4">
           <Link href="/" passHref className=" mr-[2rem]">
             <div className="flex items-center mb-5 w-48">
@@ -243,112 +243,116 @@ const Header: React.FC= () => {
           </div>
           {/* desktop view */}
         </div>
-        <nav className="hidden  lg:flex lg:space-x-12 md:space-x-6 text-[16px] ">
-          <div className="relative group " ref={servicesDropdownRef}>
-            <button className="flex items-center text-nowrap text-white font-semibold ">
-              Services
-              <svg
-                className="w-4 h-4 ml-1"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-                xmlns="http://www.w3.org/2000/svg"
+        <div className="flex items-center gap-x-11">
+          <nav className="hidden  lg:flex lg:space-x-12 md:space-x-6 text-[16px] ">
+            <div className="relative group " ref={servicesDropdownRef}>
+              <button className="flex items-center text-nowrap text-white font-semibold ">
+                Services
+                <svg
+                  className="w-4 h-4 ml-1"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M19 9l-7 7-7-7"
+                  ></path>
+                </svg>
+              </button>
+              {
+                <div className=" w-[270px] absolute  mt-1 left-[-1px] rounded shadow-lg z-10 text-[1rem] font-medium bg-white overflow-hidden max-h-0 group-hover:max-h-screen group-hover:opacity-100 transition-all duration-300 ease-in-out opacity-0 ">
+                  <Link
+                    href="/service/Mobile_app_development"
+                    className="block px-4 py-1 text-[#464646] hover:text-black hover:font-semibold "
+                  >
+                    Mobile App Development
+                  </Link>
+                  <Link
+                    href="/service/AI_chatbots"
+                    className="block px-4 py-3 text-[#464646] hover:text-black hover:font-semibold"
+                  >
+                    AI Chatbots
+                  </Link>
+                  <Link
+                    href="/service/Al_ML_Intrgrations"
+                    className="block px-4 py-3 text-[#464646] hover:text-black hover:font-semibold"
+                  >
+                    AI & ML Integrations
+                  </Link>
+                  <Link
+                    href="/service/Website_development"
+                    className="block px-4 py-3 text-[#464646] hover:text-black hover:font-semibold"
+                  >
+                    Website Development
+                  </Link>
+                  <Link
+                    href="/service/Backend_system_development"
+                    className="block px-4 py-3 text-[#464646] hover:text-black hover:font-semibold"
+                  >
+                    Backend System Development
+                  </Link>
+                  <Link
+                    href="/service/CRM_implementation"
+                    className="block px-4 py-3 text-[#464646] hover:text-black hover:font-semibold"
+                  >
+                    CRM Implementation
+                  </Link>
+                </div>
+              }
+            </div>
+            <div className="relative" ref={startupDropdownRef}>
+              <button
+                onClick={() => router.push("/Startups")}
+                className="flex items-center text-white font-semibold hover:text-black transition-colors duration-30"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M19 9l-7 7-7-7"
-                ></path>
-              </svg>
-            </button>
-            {
-              <div className=" w-[270px] absolute  mt-1 left-[-1px] rounded shadow-lg z-10 text-[1rem] font-medium bg-white overflow-hidden max-h-0 group-hover:max-h-screen group-hover:opacity-100 transition-all duration-300 ease-in-out opacity-0 ">
-                <Link
-                  href="/service/Mobile_app_development"
-                  className="block px-4 py-1 text-[#464646] hover:text-black hover:font-semibold "
-                >
-                  Mobile App Development
-                </Link>
-                <Link
-                  href="/service/AI_chatbots"
-                  className="block px-4 py-3 text-[#464646] hover:text-black hover:font-semibold"
-                >
-                  AI Chatbots
-                </Link>
-                <Link
-                  href="/service/Al_ML_Intrgrations"
-                  className="block px-4 py-3 text-[#464646] hover:text-black hover:font-semibold"
-                >
-                  AI & ML Integrations
-                </Link>
-                <Link
-                  href="/service/Website_development"
-                  className="block px-4 py-3 text-[#464646] hover:text-black hover:font-semibold"
-                >
-                  Website Development
-                </Link>
-                <Link
-                  href="/service/Backend_system_development"
-                  className="block px-4 py-3 text-[#464646] hover:text-black hover:font-semibold"
-                >
-                  Backend System Development
-                </Link>
-                <Link
-                  href="/service/CRM_implementation"
-                  className="block px-4 py-3 text-[#464646] hover:text-black hover:font-semibold"
-                >
-                  CRM Implementation
-                </Link>
-              </div>
-            }
-          </div>
-          <div className="relative" ref={startupDropdownRef}>
-            <button
-              onClick={() => router.push("/Startups")}
-              className="flex items-center text-white font-semibold hover:text-black transition-colors duration-30"
-            >
-              Startups
-            </button>
-          </div>
+                Startups
+              </button>
+            </div>
 
-          <Link
-            href="/SuccessStories"
-            className="text-white text-nowrap hover:text-black font-semibold transition-colors duration-300"
-          >
-            Success Stories
-          </Link>
-          {/* <Link
+            <Link
+              href="/SuccessStories"
+              className="text-white text-nowrap hover:text-black font-semibold transition-colors duration-300"
+            >
+              Success Stories
+            </Link>
+            {/* <Link
             href="/Case_Studies"
             className="text-white hover:text-black text-nowrap font-semibold transition-colors duration-300"
           >
             Case Studies
           </Link> */}
-          <Link
-            href="/Gallery"
-            className="text-white hover:text-black font-semibold text-nowrap transition-colors duration-300"
-          >
-            Gallery
-          </Link>
-          <Link
-            href="/about"
-            className="text-white text-nowrap hover:text-black font-semibold transition-colors duration-300"
-          >
-            About Us
-          </Link>
-        </nav>
-        <div className="w-[7rem] h-[2rem]">
-          <Link
-            href={
-              "https://calendly.com/sriram-angajala-grethena/discuss-about-your-new-app-idea?primary_color=00ff1b"
-            }
-            className="flex items-center justify-center rounded-md bg-[#6754c5] text-white h-full px-2"
-          >
-            <span className=" font-medium text-xs mx-auto text-nowrap">Get in Touch</span>
-            <span>
-              <IoIosArrowRoundForward size={19} className="mx-auto" />
-            </span>
-          </Link>
+            <Link
+              href="/Gallery"
+              className="text-white hover:text-black font-semibold text-nowrap transition-colors duration-300"
+            >
+              Gallery
+            </Link>
+            <Link
+              href="/about"
+              className="text-white text-nowrap hover:text-black font-semibold transition-colors duration-300"
+            >
+              About Us
+            </Link>
+          </nav>
+          <div className="w-[8rem] lg:w-[9rem] h-[2.6rem] lg:h-[2.8rem] absolute right-2  lg:right-[-1rem] lg:relative ">
+            <Link
+              href={
+                "https://calendly.com/sriram-angajala-grethena/discuss-about-your-new-app-idea?primary_color=00ff1b"
+              }
+              className="flex items-center justify-center rounded-md bg-[#6754c5] text-white h-full px-2"
+            >
+              <span className=" font-medium text-sm mx-auto text-nowrap">
+                Get in Touch
+              </span>
+              <span>
+                <IoIosArrowRoundForward size={19} className="mx-auto" />
+              </span>
+            </Link>
+          </div>
         </div>
       </div>
     </header>
