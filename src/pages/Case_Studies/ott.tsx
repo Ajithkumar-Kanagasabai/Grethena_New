@@ -20,3 +20,13 @@
 // }
 
 // export default ott
+
+import React from 'react'
+
+const ott = () => {
+  return (
+    <div></div>
+  )
+}
+
+export default ott

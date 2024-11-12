@@ -20,3 +20,13 @@
 // }
 
 // export default booking_appointments;
+
+import React from 'react'
+
+const booking_appointments = () => {
+  return (
+    <div></div>
+  )
+}
+
+export default booking_appointments

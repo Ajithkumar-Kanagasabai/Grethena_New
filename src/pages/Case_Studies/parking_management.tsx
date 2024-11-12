@@ -6,7 +6,6 @@
 // import { Newsletter } from "@/src/app/component/Newsletter";
 // import ParkingSection from '@/src/app/component/ParkingSection';
 
-
 // const parking_management = () => {
 //   return (
 //     <>
@@ -21,3 +20,11 @@
 // }
 
 // export default parking_management
+
+import React from "react";
+
+const parking_management = () => {
+  return <div></div>;
+};
+
+export default parking_management;
