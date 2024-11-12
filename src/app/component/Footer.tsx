@@ -106,7 +106,7 @@ const Footer: React.FC = () => {
                 <Image src={Linkedin} alt="Linkedin Icon" />
               </Link>
             </div>
-            <p className="md:flex text-[12px] mt-5 lg:text-[18px] font-Quicksand text-white">
+            <p className="md:flex text-[12px] text-center mt-5 lg:text-[18px] font-Quicksand text-white">
               &copy; 2024 Grethena. All rights reserved by Grethena Ltd.
             </p>
           </div>

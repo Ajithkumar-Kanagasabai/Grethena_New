@@ -12,7 +12,7 @@ const poc = () => {
       <Header />
       <div className="min-h-[700px] px-8 mt-[5rem]">
         <section className=" mt-6 px-4 md:px-20 text-gray-700 ">
-          <div className="flex gap-x-7 items-center">
+          <div className="lg:flex  gap-x-7 items-center">
             <Image
               src={pocImg}
               className=" rounded-lg mt-4  mx-auto"

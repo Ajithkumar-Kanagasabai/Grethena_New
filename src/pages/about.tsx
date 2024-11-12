@@ -5,9 +5,9 @@ import Footer from "../app/component/Footer";
 
 import Image from "next/image";
 import team1 from "../../public/assets/about/team1.jpeg";
+import team2 from "../../public/assets/about/team5.png";
 import ceo from "../../public/assets/about/ceo.jpg";
 import coo from "../../public/assets/about/coo.png";
-import { Newsletter } from "../app/component/Newsletter";
 
 const about = () => {
 
@@ -16,20 +16,14 @@ const about = () => {
     <>
       <section>
         <Header />
-        <div className="bg-white py-8 px-4 sm:px-6 lg:px-8 font-Quicksand">
+        <div className="bg-white py-8 px-4 sm:px-6 lg:px-8 ">
           <div className="max-w-7xl mx-auto">
             <div className="text-center">
-              <h2 className="font-[Quicksand] text-[var(--four-color)] font-bold m-0 mb-4 leading-[1.41666] clear-both text-[32px] pt-[60px] pr-[60px] pb-[60px] pl-[60px]">
+              <h2 className=" text-[var(--four-color)] font-bold m-0  leading-[1.41666] clear-both text-[32px] pt-[60px] pr-[60px] pb-[60px] pl-[60px]">
                 About Us
               </h2>
             </div>
-
-            <div className="max-w-7xl mx-auto mt-4">
-              <div className="text-center">
-                <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl font-Quicksand">
-                  Our Leadership Team
-                </h2>
-              </div>
+            <div className="max-w-7xl mx-auto">
               <div className="mt-6 flex flex-col items-center lg:flex-row lg:justify-evenly ">
                 <div className="mt-[1.7rem]">
                   <Image
@@ -38,7 +32,7 @@ const about = () => {
                     className="rounded-lg shadow-lg w-[400px] h-[370px]"
                   />
                   <div className="mt-3 text-xl">
-                    <p className=" font-semibold">Chief Executive Officer</p>
+                    <p className=" font-bold">Chief Executive Officer</p>
                     <p>Sriram Angajala</p>
                   </div>
                 </div>
@@ -49,13 +43,13 @@ const about = () => {
                     className="rounded-lg shadow-lg w-[400px] h-[370px] flex bg-center mt-5 "
                   />
                   <div className="mt-3 text-xl">
-                    <p className="font-semibold">Chief Operating Officer</p>
+                    <p className="font-bold">Chief Operating Officer</p>
                     <p>Saranya Seetharaman</p>
                   </div>
                 </div>
               </div>
             </div>
-            <div className="mt-6 flex flex-col items-center lg:flex-row lg:space-x-8">
+            <div className="mt-11 flex flex-col items-center  lg:flex-row lg:space-x-11">
               <div className="w-full lg:w-1/2 flex justify-center ">
                 <Image
                   src={team1}
@@ -144,15 +138,20 @@ const about = () => {
                 OUR OFFICE
               </h2>
             </div>
-            <div className="mt-6 flex flex-col items-center lg:flex-row lg:space-x-8">
-              <div className="w-full lg:w-1/2 flex justify-center">
-                
+            <div className="mt-9 flex flex-col items-center lg:flex-row lg:space-x-8 ">
+              <div className="w-full lg:w-1/2 border flex justify-center">
+                {/* img */}
+                <Image
+                  src={team2}
+                  alt="Team Photo"
+                  className="rounded-lg shadow-lg w-full "
+                />
               </div>
               <div className="mt-6 lg:mt-0 lg:w-1/2 text-center lg:text-left">
-                <h3 className="text-2xl font-semibold text-gray-800">
+                <h3 className="text-3xl  text-black font-bold">
                   Shaping The Digital Landscape!
                 </h3>
-                <p className="mt-4 text-gray-600">
+                <p className="mt-4 text-gray-600 text-lg">
                   Our team of experts has years of experience in App, AI, OTT
                   Platform, and Booking App Development. We are passionate about
                   helping our clients succeed, and we continuously strive to
@@ -162,7 +161,7 @@ const about = () => {
             </div>
           </div>
         </div>
-        <div className="mb-4 text-center">
+        <div className="mb-4 text-center mt-4">
           <span className=" text-xl bg-blue-500 text-white  font-semibold px-[35px] py-[6px] rounded-full uppercase">
             TESTIMONIALS
           </span>
@@ -174,16 +173,16 @@ const about = () => {
                 What Our Clients Say
               </h2>
             </div>
-            <div className="mt-6 flex flex-col items-center lg:flex-row lg:space-x-8">
+            <div className="mt-9 flex flex-col items-center lg:flex-row lg:space-x-8">
               <div className="w-full lg:w-1/2 flex justify-center">
                 <Image
                   src={team1}
                   alt="Team Photo"
-                  className="rounded-lg shadow-lg w-full lg:w-auto max-w-xs lg:max-w-md"
+                  className="rounded-lg shadow-lg w-full"
                 />
               </div>
               <div className="mt-6 lg:mt-0 lg:w-1/2 text-center lg:text-left">
-                <p className="mt-4 text-gray-600">
+                <p className="mt-4 text-gray-600 text-lg">
                   &quot;Exceptional service and outstanding quality! The team
                   here has a clear commitment to innovation, delivering products
                   that surpass our expectations every time. Their expertise and
@@ -191,14 +190,14 @@ const about = () => {
                   business, and we truly value their dedication to
                   excellence.&quot;
                 </p>
-                <p className="mt-4 text-gray-600">
+                <p className="mt-4 text-gray-600 text-lg">
                   &quot;Working with this team has been a fantastic experience.
                   Their industry knowledge, professionalism, and responsiveness
                   have made it easy for us to find exactly what we need. They
                   consistently go above and beyond, ensuring that every
                   interaction leaves us fully satisfied.&quot;
                 </p>
-                <p className="mt-4 text-gray-600">
+                <p className="mt-4 text-gray-600 text-lg">
                   &quot;Reliable, forward-thinking, and customer-focused – this
                   company understands what it takes to provide a great client
                   experience. Their dedication to quality and innovation in IT
