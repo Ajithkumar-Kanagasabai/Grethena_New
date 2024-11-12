@@ -15,7 +15,7 @@ const PrivacyPolicy = () => {
         <div className="m-0 mx-12 text-[24px] text-[#7A7A7A]">
           <div className="">
             <div className="text-center">
-              <h2 className="font-[Quicksand] text-[#303142] font-bold m-0 mb-4 leading-[1.41666] clear-both text-[32px] pt-[60px] pr-[60px] pb-[60px] pl-[60px]">
+              <h2 className="font-Quicksand text-[#303142] font-bold m-0 mb-4 leading-[1.41666] clear-both text-[32px] pt-[60px] pr-[60px] pb-[60px] pl-[60px]">
                 PRIVACY POLICY
               </h2>
             </div>
@@ -124,7 +124,7 @@ const PrivacyPolicy = () => {
             </ul>
           </div>
           <div className="text-base leading-relaxed space-y-4 text-[24px] text-[#7A7A7A]">
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
               Scope of this privacy policy
             </h1>
             <p>
@@ -141,7 +141,7 @@ const PrivacyPolicy = () => {
               which, and the manner in which, your Data is processed.
             </p>
 
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
               Data Controller
             </h1>
             <p>
@@ -156,7 +156,7 @@ const PrivacyPolicy = () => {
               </li>
               <li>In each case, in accordance with this privacy policy.</li>
             </ul>
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
               How we collect Data
             </h1>
             <p>6. We collect Data in the following ways:</p>
@@ -165,7 +165,7 @@ const PrivacyPolicy = () => {
               <li>Data is given to us by you; and</li>
               <li>Data is collected automatically.</li>
             </ul>
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
               Data that is given to us by you
             </h1>
             <p>
@@ -191,7 +191,7 @@ const PrivacyPolicy = () => {
               <li>When you use our services;</li>
               <li>In each case, in accordance with this privacy policy.</li>
             </ul>
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
               Data that is given to us by you
             </h1>
             <p>
@@ -207,7 +207,7 @@ const PrivacyPolicy = () => {
                 and the way you use and interact with its content.
               </li>
             </ul>
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
               Our use of Data
             </h1>
             <p>
@@ -226,7 +226,7 @@ const PrivacyPolicy = () => {
               satisfied with this, you have the right to object in certain
               circumstances (see the section headed “Your rights” below).
             </p>
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
               Who we share Data with
             </h1>
             <p>
@@ -240,7 +240,7 @@ const PrivacyPolicy = () => {
                 accordance with this privacy policy.
               </li>
             </ul>
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
               Keeping Data secure
             </h1>
             <p>
@@ -272,7 +272,7 @@ const PrivacyPolicy = () => {
               please visit www.getsafeonline.org. Get Safe Online is supported
               by HM Government and leading businesses.
             </p>
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
               Data retention
             </h1>
             <p>
@@ -285,7 +285,7 @@ const PrivacyPolicy = () => {
               17. Even if we delete your Data, it may persist on backup or
               archival media for legal, tax or regulatory purposes.
             </p>
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[30px]">
               Your rights
             </h1>
             <p>18. You have the following rights in relation to your Data:</p>
@@ -347,7 +347,7 @@ const PrivacyPolicy = () => {
               and current. Please keep us informed if your Data changes during
               the period for which we hold it.
             </p>
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
               Links to other websites
             </h1>
             <p>
@@ -358,7 +358,7 @@ const PrivacyPolicy = () => {
               read the privacy policy or statement of other websites prior to
               using them.
             </p>
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
               Changes of business ownership and control
             </h1>
             <p>
@@ -379,7 +379,7 @@ const PrivacyPolicy = () => {
               25. In the above instances, we will take steps with the aim of
               ensuring your privacy is protected.
             </p>
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
               General
             </h1>
             <p>
@@ -407,7 +407,7 @@ const PrivacyPolicy = () => {
               Agreement will be subject to the exclusive jurisdiction of the
               English and Welsh courts.
             </p>
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
               Changes to this privacy policy
             </h1>
             <p>

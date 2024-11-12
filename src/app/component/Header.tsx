@@ -110,7 +110,7 @@ const Header: React.FC= () => {
               </Link>
 
               <div
-                className="  flex-col  items-center justify-center cursor-pointer text-center "
+                className=" cursor-pointer text-center  "
                 onClick={toggleDropdown}
               >
                 <div className="flex items-center justify-center relative">
@@ -157,7 +157,7 @@ const Header: React.FC= () => {
 
                 <div>
                   <nav
-                    className={`flex flex-col transition-all duration-300 ease-in-out bg-slate-500 rounded-lg p-3 ${
+                    className={`flex flex-col transition-all duration-300 ease-in-out ${
                       isOpen
                         ? "h-auto max-h-screen opacity-100"
                         : "h-0 max-h-0 opacity-0"
@@ -202,7 +202,6 @@ const Header: React.FC= () => {
                   </nav>
                 </div>
               </div>
-
               <Link
                 href="/Startups"
                 className=" text-[#FFFFFF] hover:text-[#20C997] hover:font-bold "

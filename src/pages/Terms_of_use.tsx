@@ -13,7 +13,7 @@ const Terms_of_use = () => {
           </h2>
         </div>
         <div className="text-base leading-relaxed space-y-4 text-[24px] text-[#7A7A7A]">
-          <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+          <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
             Introduction
           </h1>
           <p>
@@ -24,7 +24,7 @@ const Terms_of_use = () => {
           </p>
 
           <div className="text-base leading-relaxed space-y-4 text-[24px] text-[#7A7A7A]">
-            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+            <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
               Website Purpose
             </h1>
             <p>
@@ -36,7 +36,7 @@ const Terms_of_use = () => {
               to separate agreements.
             </p>
             <div className="text-base leading-relaxed space-y-4 text-[24px] text-[#7A7A7A]">
-              <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+              <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
                 Intellectual Property
               </h1>
               <p>
@@ -48,7 +48,7 @@ const Terms_of_use = () => {
               </p>
             </div>
             <div className="text-base leading-relaxed space-y-4 text-[24px] text-[#7A7A7A]">
-              <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+              <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
                 User Obligations
               </h1>
               <p>When accessing or using our website, you agree not to:</p>
@@ -63,7 +63,7 @@ const Terms_of_use = () => {
             </div>
 
             <div className="text-base leading-relaxed space-y-4 text-[24px] text-[#7A7A7A]">
-              <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+              <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
                 Limitation of Liability
               </h1>
               <p>
@@ -75,7 +75,7 @@ const Terms_of_use = () => {
               </p>
             </div>
             <div className="text-base leading-relaxed space-y-4 text-[24px] text-[#7A7A7A]">
-              <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+              <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
                 Third-Party Links
               </h1>
               <p>
@@ -87,7 +87,7 @@ const Terms_of_use = () => {
               </p>
             </div>
             <div className="text-base leading-relaxed space-y-4 text-[24px] text-[#7A7A7A]">
-              <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+              <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
                 Privacy Policy
               </h1>
               <p>
@@ -98,7 +98,7 @@ const Terms_of_use = () => {
               </p>
             </div>
             <div className="text-base leading-relaxed space-y-4 text-[24px] text-[#7A7A7A]">
-              <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+              <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
                 Changes to Terms
               </h1>
               <p>
@@ -108,7 +108,7 @@ const Terms_of_use = () => {
               </p>
             </div>
             <div className="text-base leading-relaxed space-y-4 text-[24px] text-[#7A7A7A]">
-              <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[40px]">
+              <h1 className="font-quicksand text-[#303142] font-bold mb-[15px] clear-both text-[35px]">
                 Governing Law
               </h1>
               <p>

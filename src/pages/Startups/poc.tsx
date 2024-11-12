@@ -11,20 +11,27 @@ const poc = () => {
     <div>
       <Header />
       <div className="min-h-[700px] px-8 mt-[5rem]">
-        <Image
-          src={pocImg}
-          className=" rounded-lg mt-4 w-[90%] h-[500px] mx-auto"
-          alt="poc"
-        />
         <section className=" mt-6 px-4 md:px-20 text-gray-700 ">
-          <h2 className="text-3xl font-Quicksand font-semibold mt-4">OUR VISION</h2>
-          <p className="text-lg md:text-xl mb-2">
-            We envision a future where Latin American talent is at the forefront
-            of technological innovation, driving progress and transformation in
-            the global IT sector. Through our commitment to excellence in
-            education and professional development, we aim to be the catalyst
-            for success for every student who joins our program.
-          </p>
+          <div className="flex gap-x-7 items-center">
+            <Image
+              src={pocImg}
+              className=" rounded-lg mt-4  mx-auto"
+              alt="poc"
+            />
+            <div>
+              <h2 className="text-3xl text-center font-Quicksand font-semibold mt-4">
+                OUR VISION
+              </h2>
+              <p className="text-lg mt-6 text-center md:text-xl mb-2">
+                We envision a future where Latin American talent is at the
+                forefront of technological innovation, driving progress and
+                transformation in the global IT sector. Through our commitment
+                to excellence in education and professional development, we aim
+                to be the catalyst for success for every student who joins our
+                program.
+              </p>
+            </div>
+          </div>
         </section>
         <section className="text-gray-700  py-8 lg:py-16 px-4 md:px-20">
           <h1 className="text-3xl  font-Quicksand font-semibold">
@@ -43,7 +50,7 @@ const poc = () => {
             you to create a robust, clear POC that showcases the potential of
             your concept.
           </p>
-          <h1 className="text-2xl md:text-4xl font-bold mb-6 mt-8">
+          <h1 className="text-2xl md:text-3xl font-bold mb-6 mt-8">
             Why Choose a POC?
           </h1>
 
@@ -59,7 +66,7 @@ const poc = () => {
             you to create a robust, clear POC that showcases the potential of
             your concept.
           </p>
-          <h1 className="text-2xl md:text-4xl font-bold mb-6 mt-8">
+          <h1 className="text-2xl md:text-3xl font-bold mb-6 mt-8">
             Our Approach to POC Development
           </h1>
 
@@ -106,7 +113,7 @@ const poc = () => {
             This feedback loop enables you to refine the concept and move
             forward with confidence.
           </p>
-          <h1 className="text-2xl md:text-4xl font-bold mb-6 mt-8">
+          <h1 className="text-2xl md:text-3xl font-bold mb-6 mt-8">
             Why Partner with Grethena?
           </h1>
 
@@ -132,7 +139,7 @@ const poc = () => {
             functional, compelling prototype quickly, with transparency at every
             stage.
           </p>
-          <h1 className="text-2xl md:text-4xl font-bold mb-6 mt-8">
+          <h1 className="text-2xl md:text-3xl font-bold mb-6 mt-8">
             Ready to Validate Your Concept?
           </h1>
 

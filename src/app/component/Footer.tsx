@@ -35,7 +35,9 @@ const Footer: React.FC = () => {
                 </div>
                 <div className="">
                   <p>India Office</p>
-                  <p className=''>25FG+WGJ, Ramapuram, Chennai, Tamil Nadu 600125</p>
+                  <p className="">
+                    25FG+WGJ, Ramapuram, Chennai, Tamil Nadu 600125
+                  </p>
                 </div>
               </div>
 
@@ -62,7 +64,7 @@ const Footer: React.FC = () => {
                   <Link href="/">Home</Link>
                 </li>
                 <li className="py-2">
-                  <Link href="/Case_Studies">Case Studies</Link>
+                  <Link href="/Startups">Startups</Link>
                 </li>
                 <li className="py-2">
                   <Link href="/about">About Us</Link>

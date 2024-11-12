@@ -13,8 +13,8 @@ const Startups = () => {
     <div>
       <Header />
       <div className="min-h-[750px] ">
-        <h1 className="text-center text-4xl mt-[4rem] font-Quicksand font-bold">
-          Our Startups
+        <h1 className="text-center text-4xl mt-[4rem]  font-bold">
+         Startups
         </h1>
         <div className="grid gap-9 grid-cols-1 lg:grid-cols-2 mx-auto mt-8 bg-cover p-4 w-[90%]">
           <div

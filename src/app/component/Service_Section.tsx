@@ -36,13 +36,12 @@ export const Service_Section = () => {
     },
   ];
   return (
-    <div className="container mx-auto px-4 ">
-      <div className="text-center ">
-       
-      </div>
-      <div className=" grid lg:grid-cols-3 grid-cols-1  gap-9  w-[84%] mx-auto ">
+    <div className="mx-auto px-4">
+      <div className="flex flex-wrap justify-center gap-x-12 gap-y-8 w-6/6">
         {courses.map((course, index) => (
-          <Card2 key={index} {...course} index={index} />
+          <div key={index}>
+            <Card2 {...course} index={index} />
+          </div>
         ))}
       </div>
     </div>
