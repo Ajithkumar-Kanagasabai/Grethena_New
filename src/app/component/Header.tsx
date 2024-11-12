@@ -70,135 +70,10 @@ const Header: React.FC= () => {
 
   return (
     <header className="md:px-[50px] bg-[#04E39C] h-[110px] flex items-center justify-center shadow-[inset_0_0_0_200px_rgba(0,0,0,0.1)]">
-      <div className="w-full py-4 flex justify-between items-center">
+      <div className=" relative container flex justify-between items-center">
         <div className="flex items-center space-x-4">
-          {/* Mobile Menu Icon */}
-          <div className="flex md:hidden items-center justify-between">
-            <div className="text-2xl cursor-pointer" onClick={toggleMenu}>
-              <FaBars />
-            </div>
-            {menuOpen && (
-              <div className="fixed inset-0 bg-black opacity-50 z-10" />
-            )}
-            <div
-              ref={sidebarRef}
-              className={`z-20 flex flex-col fixed top-0 left-0 p-4 w-[17rem] h-full bg-gray-900 text-white transition-transform transform ${
-                menuOpen ? "translate-x-0" : "-translate-x-full"
-              } ease-in-out duration-300`}
-              onClick={(e) => e.stopPropagation()}
-            >
-              <Link
-                href="/"
-                className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
-              >
-                Home
-              </Link>
-
-              <div className="w-100 h-px bg-gray-300"></div>
-              <div className="">
-                <Link
-                  href="#"
-                  className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
-                  onClick={toggleDropdown}
-                >
-                  {" "}
-                  Services{" "}
-                </Link>
-                <div>
-                  <nav
-                    className={`flex flex-col transition-all duration-300 ease-in-out ${
-                      isOpen
-                        ? "h-auto max-h-screen opacity-100"
-                        : "h-0 max-h-0 opacity-0"
-                    } overflow-hidden`}
-                  >
-                    <Link
-                      href="/service/Mobile_app_development"
-                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold text-left mt-2"
-                    >
-                      Mobile App Development
-                    </Link>
-                    <Link
-                      href="/service/AI_chatbots"
-                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold text-left mt-1"
-                    >
-                      AI Chatbots
-                    </Link>
-                    <Link
-                      href="/service/Al_ML_Intrgrations"
-                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold text-left mt-1"
-                    >
-                      AI & ML Integrations
-                    </Link>
-                    <Link
-                      href="/service/Website_development"
-                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold text-left mt-1"
-                    >
-                      Website Development
-                    </Link>
-                    <Link
-                      href="/service/Backend_system_development"
-                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold text-left mt-1"
-                    >
-                      Backend System Development
-                    </Link>
-                    <Link
-                      href="/service/CRM_implementation"
-                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold text-left mt-1"
-                    >
-                      CRM Implementation
-                    </Link>
-                  </nav>
-                </div>
-
-                <div className="w-100 h-px bg-gray-300 mt-2"></div>
-              </div>
-
-              <Link
-                href="/Startups"
-                className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
-              >
-                Startups
-              </Link>
-              <div className="w-100 h-px bg-gray-300"></div>
-              <Link
-                href="/SuccessStories"
-                className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
-              >
-                Success Stories
-              </Link>
-              <div className="w-100 h-px bg-gray-300"></div>
-              <Link
-                href="/Case_Studies"
-                className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
-              >
-                Case Studies
-              </Link>
-              <div className="w-100 h-px bg-gray-300"></div>
-              <Link
-                href="/Gallery"
-                className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
-              >
-                Gallery
-              </Link>
-              <div className="w-100 h-px bg-gray-300"></div>
-              <Link
-                href="/about"
-                className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
-              >
-                About Us
-              </Link>
-              <div className="w-100 h-px bg-gray-300"></div>
-            </div>
-            {menuOpen && (
-              <div className="fixed inset-0 bg-black opacity-50 z-10" />
-            )}
-          </div>
-
-          {/* desktop view */}
-
-          <Link href="/" passHref>
-            <div className="flex items-center mb-5">
+          <Link href="/" passHref className=" mr-[2rem]">
+            <div className="flex items-center mb-5 w-48">
               <Image
                 src={Logo}
                 alt="Logo"
@@ -209,8 +84,166 @@ const Header: React.FC= () => {
               />
             </div>
           </Link>
+          {/* Mobile Menu Icon */}
+          <div className="flex md:flex lg:hidden items-center justify-between">
+            <div
+              className="text-2xl cursor-pointer absolute right-[10rem] "
+              onClick={toggleMenu}
+            >
+              <FaBars />
+            </div>
+
+            <div
+              ref={sidebarRef}
+              className={`z-20 flex flex-col items-center fixed left-0 p-4 w-full h-auto bg-gray-900 text-white transition-transform transform gap-y-4 ${
+                menuOpen
+                  ? "translate-y-0 top-[6.5rem] "
+                  : " top-[-11rem] -translate-y-full"
+              } ease-in-out duration-300`}
+              onClick={(e) => e.stopPropagation()}
+            >
+              <Link
+                href="/"
+                className=" text-[#FFFFFF] hover:text-[#20C997] hover:font-bold "
+              >
+                Home
+              </Link>
+
+              <div
+                className="  flex-col  items-center justify-center cursor-pointer text-center "
+                onClick={toggleDropdown}
+              >
+                <div className="flex items-center justify-center relative">
+                  <Link
+                    href="#"
+                    className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-center "
+                  >
+                    {" "}
+                    Services{" "}
+                  </Link>
+                  {isOpen ? (
+                    <svg
+                      className="w-4 h-4 absolute right-[3rem] top-[13px]"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      {" "}
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M5 15l7-7 7 7"
+                      ></path>{" "}
+                    </svg>
+                  ) : (
+                    <svg
+                      className="w-4 h-4  absolute right-[3rem] top-[13px] "
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M19 9l-7 7-7-7"
+                      ></path>
+                    </svg>
+                  )}
+                </div>
+
+                <div>
+                  <nav
+                    className={`flex flex-col transition-all duration-300 ease-in-out ${
+                      isOpen
+                        ? "h-auto max-h-screen opacity-100"
+                        : "h-0 max-h-0 opacity-0"
+                    } overflow-hidden`}
+                  >
+                    <Link
+                      href="/service/Mobile_app_development"
+                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1"
+                    >
+                      Mobile App Development
+                    </Link>
+                    <Link
+                      href="/service/AI_chatbots"
+                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1"
+                    >
+                      AI Chatbots
+                    </Link>
+                    <Link
+                      href="/service/Al_ML_Intrgrations"
+                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1"
+                    >
+                      AI & ML Integrations
+                    </Link>
+                    <Link
+                      href="/service/Website_development"
+                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1"
+                    >
+                      Website Development
+                    </Link>
+                    <Link
+                      href="/service/Backend_system_development"
+                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1"
+                    >
+                      Backend System Development
+                    </Link>
+                    <Link
+                      href="/service/CRM_implementation"
+                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1"
+                    >
+                      CRM Implementation
+                    </Link>
+                  </nav>
+                </div>
+              </div>
+
+              <Link
+                href="/Startups"
+                className=" text-[#FFFFFF] hover:text-[#20C997] hover:font-bold "
+              >
+                Startups
+              </Link>
+
+              <Link
+                href="/SuccessStories"
+                className=" text-[#FFFFFF] hover:text-[#20C997] hover:font-bold "
+              >
+                Success Stories
+              </Link>
+              {/* <div className="w-100 h-px bg-gray-300"></div> */}
+              {/* <Link
+                href="/Case_Studies"
+                className="my-2 text-[#FFFFFF] hover:text-[#20C997] hover:font-bold text-left"
+              >
+                Case Studies
+              </Link> */}
+              <Link
+                href="/Gallery"
+                className=" text-[#FFFFFF] hover:text-[#20C997] hover:font-bold "
+              >
+                Gallery
+              </Link>
+
+              <Link
+                href="/about"
+                className=" text-[#FFFFFF] hover:text-[#20C997] hover:font-bold "
+              >
+                About Us
+              </Link>
+            </div>
+            {menuOpen && (
+              <div className="fixed inset-0 bg-black opacity-50 z-10" />
+            )}
+          </div>
+          {/* desktop view */}
         </div>
-        <nav className="hidden md:flex lg:space-x-12 md:space-x-6 text-[16px] ">
+        <nav className="hidden  lg:flex lg:space-x-12 md:space-x-6 text-[16px] ">
           <div className="relative group " ref={servicesDropdownRef}>
             <button className="flex items-center text-nowrap text-white font-semibold ">
               Services
@@ -285,12 +318,12 @@ const Header: React.FC= () => {
           >
             Success Stories
           </Link>
-          <Link
+          {/* <Link
             href="/Case_Studies"
             className="text-white hover:text-black text-nowrap font-semibold transition-colors duration-300"
           >
             Case Studies
-          </Link>
+          </Link> */}
           <Link
             href="/Gallery"
             className="text-white hover:text-black font-semibold text-nowrap transition-colors duration-300"
@@ -304,16 +337,16 @@ const Header: React.FC= () => {
             About Us
           </Link>
         </nav>
-        <div>
+        <div className="w-[7rem] h-[2rem]">
           <Link
             href={
               "https://calendly.com/sriram-angajala-grethena/discuss-about-your-new-app-idea?primary_color=00ff1b"
             }
-            className="flex items-center justify-center rounded-md bg-[#6754c5] text-white lg:gap-x-1 gap-x-1 lg:p-3 p-2  lg:ml-6 mr-3 lg:mr-0 text-nowrap md:ml-[4rem] w-auto h-auto"
+            className="flex items-center justify-center rounded-md bg-[#6754c5] text-white h-full px-2"
           >
-            <span className=" font-bold mx-auto">Get in Touch</span>
+            <span className=" font-medium text-xs mx-auto text-nowrap">Get in Touch</span>
             <span>
-              <IoIosArrowRoundForward size={25} className="mx-auto" />
+              <IoIosArrowRoundForward size={19} className="mx-auto" />
             </span>
           </Link>
         </div>

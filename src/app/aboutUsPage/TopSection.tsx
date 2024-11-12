@@ -3,7 +3,6 @@ import About1 from "../../../public/assets/about/Banner.jpg";
 import About2 from "../../../public/assets/about/Rectangle 3.png";
 import Ramsy_Health_Care from "../../../public/assets/about/Ramsy_Health_Care.png";
 import Barndcenter from "../../../public/assets/about/Barndcenter.png";
-import Sixt_Leasing from "../../../public/assets/about/newImg2.png";
 import Image from "next/image";
 
 const TopSection: React.FC = () => {
@@ -171,32 +170,6 @@ const TopSection: React.FC = () => {
           </ul>
 
         
-        </div>
-      </section>
-      <section className="px-4 md:px-20 mt-8 bg-white grid grid-cols-1 lg:grid-cols-2 items-center gap-x-4">
-        <div className="lg:px-8">
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-800 mb-4 mt-4 lg:mt-0">
-            Sixt Leasing - DUBAI
-          </h2>
-          <div className="h-1 w-8 bg-[#316B89] mb-1 ml-6"></div>
-          <div className="h-1 w-16 bg-[#20C997] mb-1"></div>
-          <div className="h-1 w-4 bg-[#316B89] mb-4"></div>
-          <ul className="list-inside text-gray-600 space-y-2">
-            <li className="font-quicksand font-medium">
-              Sixt Leasing UAE provides a streamlined platform for car leasing
-              services in the UAE. The website focuses on offering flexible
-              leasing options tailored to both individual and corporate clients.
-              The website emphasizes a customer-centric approach with a simple
-              3-step process to lease a car
-            </li>
-          </ul>
-        </div>
-        <div className="flex items-center mt-4 lg:mt-0 ">
-          <Image
-            src={Sixt_Leasing}
-            alt="What We Do"
-            className="shadow-lg w-full lg:h-[400px] rounded-md bg-cover"
-          />
         </div>
       </section>
     </div>

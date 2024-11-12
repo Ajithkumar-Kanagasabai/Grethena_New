@@ -31,9 +31,7 @@ const FeaturesSection: React.FC = () => {
     <>
       <section className="py-4 md:py-16 px-4 md:px-20 ">
         <div className="max-w-7xl mx-auto text-center">
-          <h2 className="text-3xl font-bold mb-4 text-black">
-            Our approach
-          </h2>
+          <h2 className="text-3xl font-bold mb-4 text-black">Our approach</h2>
           <p className="text-gray-600 mb-12">
             We specialise in product and software development for startups and
             early stage SMEs. You need fast, cost-effective solutions to scale
@@ -47,7 +45,7 @@ const FeaturesSection: React.FC = () => {
               >
                 <div className={`text-5xl mb-5`}>{feature.icon}</div>
                 <div className="w-[95%] mx-auto">
-                  <h3 className="text-xl font-semibold mb-2  text-white">
+                  <h3 className="text-xl font-semibold mb-2 text-bg-gradient-to-r from-[#FF7369] to-[#FFB06D]">
                     {feature.title}
                   </h3>
                   <p className="mt-4 text-gray-800 font-medium">
@@ -59,7 +57,6 @@ const FeaturesSection: React.FC = () => {
           </div>
         </div>
       </section>
-      
     </>
   );
 };
