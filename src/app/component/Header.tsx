@@ -69,7 +69,7 @@ const Header: React.FC= () => {
 
 
   return (
-    <header className="md:px-[50px] bg-[#04E39C] h-[110px] flex items-center justify-center shadow-[inset_0_0_0_200px_rgba(0,0,0,0.1)]">
+    <header className="md:px-[50px] bg-[#04E39C] h-[85px] flex items-center justify-center shadow-[inset_0_0_0_200px_rgba(0,0,0,0.1)]">
       <div className=" relative container  flex justify-between items-center">
         <div className="flex items-center space-x-4">
           <Link href="/" passHref className=" mr-[2rem]">
@@ -157,7 +157,7 @@ const Header: React.FC= () => {
 
                 <div>
                   <nav
-                    className={`flex flex-col transition-all duration-300 ease-in-out ${
+                    className={`flex flex-col transition-all duration-300 ease-in-out bg-slate-500 rounded-lg p-3 ${
                       isOpen
                         ? "h-auto max-h-screen opacity-100"
                         : "h-0 max-h-0 opacity-0"

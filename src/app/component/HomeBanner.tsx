@@ -23,11 +23,11 @@ const HeroSlider: React.FC = () => {
 
     return (
       <div
-        className="h-[720px] bg-cover "
+        className="h-[700px] bg-cover "
         style={{ backgroundImage: `url(${HeroBgImage.src})` }}
       >
-        <div className="flex justify-center w-full">
-          <div className=" mt-[12rem]">
+        <div className="flex justify-center items-center w-full">
+          <div className=" mt-[8rem]">
             <p className="text-center text-xl text-white font-semibold">
               SOFTWARE DEVELOPMENT PARTNERS FOR STARTUPS
             </p>

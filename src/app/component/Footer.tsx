@@ -12,15 +12,15 @@ import { HiPhone } from "react-icons/hi2";
 
 const Footer: React.FC = () => {
     return (
-      <footer className="text-white py-8 px-20 bg-gradient-to-r from-[#00e897] via-[#00e897] to-[#6754c5] font-Quicksand ">
+      <footer className="text-white py-8 px-20 bg-gradient-to-r from-[#00e897] via-[#00e897] to-[#6754c5] ">
         <div className="container mx-auto flex flex-col md:flex-row justify-between">
           <div className="lg:w-[29%] w-full">
             <Link href="/">
               {" "}
               <Image src={Logo} alt="Logo" width={200} height={42} />
             </Link>
-            <div className="mt-6 flex flex-col gap-y-5 text-xl font-semibold ">
-              <div className=" flex gap-4">
+            <div className="mt-6 flex flex-col gap-y-5 text-md font-medium ">
+              <div className=" flex gap-3">
                 <div className="mt-1">
                   <FaMapMarkerAlt size={20} />
                 </div>
@@ -29,13 +29,13 @@ const Footer: React.FC = () => {
                   <p>21 Heath Drive, Romford, Essex, UK, RM2 5QH</p>
                 </div>
               </div>
-              <div className=" flex  gap-4">
+              <div className=" flex  gap-3 border">
                 <div className="mt-1">
                   <FaMapMarkerAlt size={20} />
                 </div>
                 <div className="">
                   <p>India Office</p>
-                  <p>25FG+WGJ, Ramapuram, Chennai, Tamil Nadu 600125</p>
+                  <p className=''>25FG+WGJ, Ramapuram, Chennai, Tamil Nadu 600125</p>
                 </div>
               </div>
 
@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
           </div>
 
           <div className="flex  justify-between lg:w-[26%] w-[80%] ">
-            <div className="flex flex-col mt-8 md:my-4 text-xl font-semibold">
+            <div className="flex flex-col mt-8 md:my-4 text-md font-medium">
               <h3 className=" mb-2">Menu</h3>
               <ul className="md:mt-2 flex flex-col justify-center text-white font-semibold">
                 <li className="py-2">
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
               </ul>
             </div>
 
-            <div className="flex flex-col mt-8 md:my-4 text-xl font-semibold ">
+            <div className="flex flex-col mt-8 md:my-4 text-md font-medium">
               <h3 className="mb-2">Quick Links</h3>
               <ul className="md:mt-2 flex flex-col justify-center text-white font-semibold">
                 <li className="py-2">

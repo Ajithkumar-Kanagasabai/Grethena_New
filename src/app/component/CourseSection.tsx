@@ -8,11 +8,7 @@ const CourseSection = () => {
       description:
         "With a focus on innovation, efficiency, and quality, we make the process straightforward and results-driven. Partner with us, and let's bring your vision to life.",
     },
-    {
-      title: "Hire our Developers",
-      description:
-        "Build your dream in-house team to work on new or existing projects in as little as 1 week",
-    },
+
     {
       title: "Proof Of Concept development(POCs)",
       description:
