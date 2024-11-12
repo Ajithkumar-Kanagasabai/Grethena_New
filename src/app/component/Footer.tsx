@@ -29,7 +29,7 @@ const Footer: React.FC = () => {
                   <p>21 Heath Drive, Romford, Essex, UK, RM2 5QH</p>
                 </div>
               </div>
-              <div className=" flex  gap-3 border">
+              <div className=" flex  gap-3 ">
                 <div className="mt-1">
                   <FaMapMarkerAlt size={20} />
                 </div>
@@ -57,7 +57,7 @@ const Footer: React.FC = () => {
           <div className="flex  justify-between lg:w-[26%] w-[80%] ">
             <div className="flex flex-col mt-8 md:my-4 text-md font-medium">
               <h3 className=" mb-2">Menu</h3>
-              <ul className="md:mt-2 flex flex-col justify-center text-white font-semibold">
+              <ul className="md:mt-2 flex flex-col justify-center text-white font-medium">
                 <li className="py-2">
                   <Link href="/">Home</Link>
                 </li>
@@ -72,7 +72,7 @@ const Footer: React.FC = () => {
 
             <div className="flex flex-col mt-8 md:my-4 text-md font-medium">
               <h3 className="mb-2">Quick Links</h3>
-              <ul className="md:mt-2 flex flex-col justify-center text-white font-semibold">
+              <ul className="md:mt-2 flex flex-col justify-center text-white font-medium">
                 <li className="py-2">
                   <Link href="/Terms_of_use">Terms of Use</Link>
                 </li>

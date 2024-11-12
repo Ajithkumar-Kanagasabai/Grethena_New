@@ -10,19 +10,19 @@ const features = [
     title: "Get to Market Quicker",
     description:
       "Data is key to making business and product decisions, the sooner you’re live the quicker you can iterate to find market fit. We respond to all queries within 24 hours and can kick your project off in as little as 1 week.",
-    icon: <FaArrowTrendUp size={35} className="text-[#6754c5]" />,
+    icon: <FaArrowTrendUp size={35} className="text-black" />,
   },
   {
     title: "Maximise ROI",
     description:
       "We work with startups. So we know every penny counts. Our software development packages can be custom built to suit any budget.",
-    icon: <HiOutlineCurrencyDollar size={35} className="text-[#6754c5]" />,
+    icon: <HiOutlineCurrencyDollar size={35} className="text-black" />,
   },
   {
     title: "No compromises on quality",
     description:
       "We employ hundreds of highly-skilled, senior level engineers. We pride ourselves on rigorous quality assurance and testing as part of our process to ensure stable, future-proofed software every time.",
-    icon: <SiVitest size={35} className="text-[#6754c5]" />,
+    icon: <SiVitest size={35} className="text-black" />,
   },
 ];
 
@@ -41,9 +41,9 @@ const FeaturesSection: React.FC = () => {
             {features.map((feature, index) => (
               <div
                 key={index}
-                className="flex flex-col p-6 rounded-lg shadow-md items-center bg-[#04E39C] lg:hover:scale-110 hover:scale-105 duration-300"
+                className="flex flex-col p-6 rounded-lg shadow-md items-center bg-gradient-to-r from-[#FF7369] to-[#FFB06D] lg:hover:scale-110 hover:scale-105 duration-300"
               >
-                <div className={`text-5xl mb-5`}>{feature.icon}</div>
+                <div className={`text-5xl mb-5 `}>{feature.icon}</div>
                 <div className="w-[95%] mx-auto">
                   <h3 className="text-xl font-semibold mb-2 text-bg-gradient-to-r from-[#FF7369] to-[#FFB06D]">
                     {feature.title}

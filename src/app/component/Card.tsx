@@ -1,5 +1,7 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+
 
 interface CardProps {
   title: string;
@@ -12,7 +14,7 @@ const Card: React.FC<CardProps> = ({ title, description,index }) => {
 
   
   return (
-    <div className="w-[560px] h-[380px] p-3 rounded-lg overflow-hidden shadow-xl bg-gradient-to-r from-[#FF7369] to-[#FFB06D] hover:bg-[#6754c5] hover:text-white transition-colors duration-300 flex items-center">
+    <div className="w-[560px] h-[380px] p-3 rounded-lg overflow-hidden shadow-xl bg-[#04E39C] transition-colors duration-300 flex items-center hover:bg-gradient-to-r hover:from-[#6754c5] hover:to-[#6754c5]  hover:text-white">
       <div className=" flex flex-col justify-center  p-4 w-[80%] mx-auto">
         <div
           className={`text-center font-bold text-[20px] text-nowrap  mb-2  mx-auto`}
@@ -21,7 +23,14 @@ const Card: React.FC<CardProps> = ({ title, description,index }) => {
         </div>
         <div className="px-6 py-2">
           <p className=" text-base lg:text-[16px] text-center">{description}</p>
-          <div className="py-4 text-center"></div>
+          <div className="py-4 text-center mt-4">
+            <Link
+              href={`${index === 0 ? "/Startups/mvp" : "/Startups/poc"}`}
+              className=" bg-gray-600 p-2 text-white rounded-md"
+            >
+              Learn more
+            </Link>
+          </div>
         </div>
       </div>
     </div>
