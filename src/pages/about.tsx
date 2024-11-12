@@ -171,9 +171,7 @@ const about = () => {
         </div>
         <div className="bg-white py-8 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
-            <div className="text-center">
-             
-            </div>
+            <div className="text-center"></div>
             <div className="mt-9 flex flex-col items-center lg:flex-row lg:space-x-8 ">
               <div className="w-full lg:w-1/2 border flex justify-center">
                 {/* img */}
@@ -186,12 +184,13 @@ const about = () => {
               <div className="mt-6 lg:mt-0 lg:w-1/2 text-center lg:text-left">
                 <h3 className="text-3xl  text-black font-bold">OUR OFFICE</h3>
                 <p className="mt-4 text-gray-600 text-lg">
-                  At Grethena, our office is more than just a workspace—it's
-                  where ideas are born, collaboration thrives, and technology is
-                  transformed into innovative solutions. Located in the heart of
-                  Chennai, our office is designed to inspire creativity and
-                  foster a community of forward-thinking professionals dedicated
-                  to redefining the future of information technology.
+                  At Grethena, our office is more than just a
+                  workspace—it&apos;s where ideas are born, collaboration
+                  thrives, and technology is transformed into innovative
+                  solutions. Located in the heart of Chennai, our office is
+                  designed to inspire creativity and foster a community of
+                  forward-thinking professionals dedicated to redefining the
+                  future of information technology.
                 </p>
               </div>
             </div>
