@@ -5,6 +5,7 @@ import { Newsletter } from "@/src/app/component/Newsletter";
 import Footer from "@/src/app/component/Footer";
 import pocImg from '../../../public/assets/standups/poc2.png'
 import Image from "next/image";
+import Link from "next/link";
 
 const poc = () => {
   return (
@@ -18,7 +19,15 @@ const poc = () => {
               className=" rounded-lg mt-4  mx-auto w-[600px] h-[400px] bg-center"
               alt="poc"
             />
-            <div>
+            <div className=" relative">
+              <div className=" absolute bottom-[-3rem]    ">
+                <Link
+                  className="  bg-gradient-to-r from-[#FF7369] to-[#FFB06D] p-2 text-white rounded-md font-medium"
+                  href={"/Startups/poc_case_studies"}
+                >
+                  View Case Studies
+                </Link>
+              </div>
               <h2 className="text-3xl text-center font-Quicksand font-semibold mt-4">
                 OUR VISION
               </h2>
@@ -34,7 +43,7 @@ const poc = () => {
           </div>
         </section>
         <section className="text-gray-700  py-8 lg:py-16 px-4 md:px-20">
-          <h1 className="text-3xl  font-Quicksand font-semibold">
+          <h1 className="text-3xl  font-Quicksand font-semibold mt-6 lg:mt-0 md:mt-6">
             Build a POC with Grethena
           </h1>
 

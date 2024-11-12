@@ -159,37 +159,37 @@ const Header: React.FC = () => {
                   >
                     <Link
                       href="/service/Mobile_app_development"
-                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1"
+                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1 underline  decoration-[#20C997] decoration-2 underline-offset-8"
                     >
                       Mobile App Development
                     </Link>
                     <Link
                       href="/service/AI_chatbots"
-                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1"
+                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1 underline  decoration-[#20C997] decoration-2 underline-offset-8"
                     >
                       AI Chatbots
                     </Link>
                     <Link
                       href="/service/Al_ML_Intrgrations"
-                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1"
+                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1 underline  decoration-[#20C997] decoration-2 underline-offset-8"
                     >
                       AI & ML Integrations
                     </Link>
                     <Link
                       href="/service/Website_development"
-                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1"
+                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1 underline  decoration-[#20C997] decoration-2 underline-offset-8"
                     >
                       Website Development
                     </Link>
                     <Link
                       href="/service/Backend_system_development"
-                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1"
+                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1 underline  decoration-[#20C997] decoration-2 underline-offset-8"
                     >
                       Backend System Development
                     </Link>
                     <Link
                       href="/service/CRM_implementation"
-                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1"
+                      className="my-2 text-[#FFFFFF] text-nowrap hover:text-[#20C997] hover:font-bold  mt-1 underline  decoration-[#20C997] decoration-2 underline-offset-8"
                     >
                       CRM Implementation
                     </Link>

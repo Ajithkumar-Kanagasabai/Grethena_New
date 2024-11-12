@@ -8,6 +8,9 @@ import team1 from "../../public/assets/about/team1.jpeg";
 import team2 from "../../public/assets/about/team5.png";
 import ceo from "../../public/assets/about/ceo.jpg";
 import coo from "../../public/assets/about/coo.png";
+import Link from "next/link";
+import { FaLinkedin } from "react-icons/fa";
+
 
 const about = () => {
 
@@ -23,6 +26,14 @@ const about = () => {
                 About Us
               </h2>
             </div>
+            <p className="text-center text-gray-600 text-xl">
+              Welcome to Grethena Where Innovation Meets Excellence in
+              Information Technology In a rapidly evolving digital landscape, we
+              stand at the forefront of technological advancements, dedicated to
+              bringing you solutions that are not only innovative but also
+              strategically designed to fuel growth and transformation. Our
+              Story
+            </p>
             <div className="max-w-7xl mx-auto">
               <div className="mt-6 flex flex-col items-center lg:flex-row lg:justify-evenly ">
                 <div className="mt-[1.7rem]">
@@ -32,8 +43,20 @@ const about = () => {
                     className="rounded-lg shadow-lg w-[400px] h-[370px]"
                   />
                   <div className="mt-3 text-xl">
-                    <p className=" font-bold">Chief Executive Officer</p>
-                    <p>Sriram Angajala</p>
+                    <p className="font-bold text-blue-700">Sriram Angajala</p>
+                    <p className="">Chief Executive Officer | UK-London</p>
+                    <p className=" underline decoration-blue-700 text-blue-700">
+                      sriram.angajala@grethena.com
+                    </p>
+                    <Link
+                      href={
+                        "https://www.linkedin.com/in/sriramangajala?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                      }
+                      className="mt-4"
+                      target="blank"
+                    >
+                      <FaLinkedin size={27} className="mt-3" />
+                    </Link>
                   </div>
                 </div>
                 <div className="">
@@ -43,8 +66,22 @@ const about = () => {
                     className="rounded-lg shadow-lg w-[400px] h-[370px] flex bg-center mt-5 "
                   />
                   <div className="mt-3 text-xl">
-                    <p className="font-bold">Chief Operating Officer</p>
-                    <p>Saranya Seetharaman</p>
+                    <p className="font-bold text-blue-700">
+                      Saranya Seetharaman
+                    </p>
+                    <p className="">Chief Operating Officer | India</p>
+                    <p className="underline decoration-blue-700 text-blue-700">
+                      saranya@grethena.com
+                    </p>
+                    <Link
+                      href={
+                        "https://www.linkedin.com/in/saranya-seetharaman-136305112?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                      }
+                      className="mt-4"
+                      target="blank"
+                    >
+                      <FaLinkedin size={27} className="mt-3" />
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -58,14 +95,15 @@ const about = () => {
                 />
               </div>
               <div className="mt-6 lg:mt-0 lg:w-1/2 text-center lg:text-left">
-                <h3 className="text-5xl leading-[1.41666] m-0 mb-4 font-[Quicksand] text-[var(--four-color)] font-bold">
-                  Shaping The Digital Landscape!
+                <h3 className="text-4xl leading-[1.41666] m-0 mb-4  text-[var(--four-color)] font-bold">
+                  Our Story
                 </h3>
-                <p className="font-sans text-base font-normal leading-[40px]">
-                  Our team of experts has years of experience in App, AI, OTT
-                  Platform, and Booking App Development. We are passionate about
-                  helping our clients succeed, and we continuously strive to
-                  innovate and improve in the digital space.
+                <p className="font-sans text-lg font-normal leading-[40px]">
+                  Grethena began with a vision to bridge the gap between
+                  businesses and cutting-edge technology. Our journey, driven by
+                  passion and expertise, has turned into a success story that
+                  redefines how technology can empower businesses across diverse
+                  industries.
                 </p>
               </div>
             </div>
@@ -134,9 +172,7 @@ const about = () => {
         <div className="bg-white py-8 px-4 sm:px-6 lg:px-8">
           <div className="max-w-7xl mx-auto">
             <div className="text-center">
-              <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
-                OUR OFFICE
-              </h2>
+             
             </div>
             <div className="mt-9 flex flex-col items-center lg:flex-row lg:space-x-8 ">
               <div className="w-full lg:w-1/2 border flex justify-center">
@@ -148,25 +184,21 @@ const about = () => {
                 />
               </div>
               <div className="mt-6 lg:mt-0 lg:w-1/2 text-center lg:text-left">
-                <h3 className="text-3xl  text-black font-bold">
-                  Shaping The Digital Landscape!
-                </h3>
+                <h3 className="text-3xl  text-black font-bold">OUR OFFICE</h3>
                 <p className="mt-4 text-gray-600 text-lg">
-                  Our team of experts has years of experience in App, AI, OTT
-                  Platform, and Booking App Development. We are passionate about
-                  helping our clients succeed, and we continuously strive to
-                  innovate and improve in the digital space.
+                  At Grethena, our office is more than just a workspace—it's
+                  where ideas are born, collaboration thrives, and technology is
+                  transformed into innovative solutions. Located in the heart of
+                  Chennai, our office is designed to inspire creativity and
+                  foster a community of forward-thinking professionals dedicated
+                  to redefining the future of information technology.
                 </p>
               </div>
             </div>
           </div>
         </div>
-        <div className="mb-4 text-center mt-4">
-          <span className=" text-xl bg-blue-500 text-white  font-semibold px-[35px] py-[6px] rounded-full uppercase">
-            TESTIMONIALS
-          </span>
-        </div>
-        <div className="bg-white py-8 px-4 sm:px-6 lg:px-8">
+        <div className="mb-4 text-center mt-4"></div>
+        <div className="bg-white py-8 px-4 sm:px-6 lg:px-8 mb-5">
           <div className="max-w-7xl mx-auto">
             <div className="text-center">
               <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
