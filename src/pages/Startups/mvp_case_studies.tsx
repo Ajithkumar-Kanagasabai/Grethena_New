@@ -14,7 +14,6 @@ const mvc_case_studies = () => {
           Build a MVP with Grethena
         </h1>
         <div className="mt-20 mb-8">
-
           <div className="  ">
             <h1 className="lg:text-2xl md:text-xl text-md font-bold mb-6">
               Myco-Media streaming app, UAE
@@ -26,7 +25,7 @@ const mvc_case_studies = () => {
             target="blank"
           >
             <HiLink />
-            Click here
+            Click here-Website
           </Link>
           <Link
             className=" underline ml-[1.7rem] flex items-center gap-x-3  text-blue-600 text-[20px] mb-2"
@@ -36,7 +35,7 @@ const mvc_case_studies = () => {
             target="blank"
           >
             <HiLink />
-           Click here
+            Click here-App store
           </Link>
           <Link
             className=" underline ml-[1.7rem] flex items-center gap-x-3  text-blue-600 text-[20px] mb-2"
@@ -46,7 +45,7 @@ const mvc_case_studies = () => {
             target="blank"
           >
             <HiLink />
-            Click here
+            Click here-Play store
           </Link>
 
           <h2 className="lg:text-2xl md:text-1xl font-bold mb-6 mt-8">
@@ -58,7 +57,7 @@ const mvc_case_studies = () => {
             target="blank"
           >
             <HiLink />
-            Click here
+            Click here-Website(Home)
           </Link>
           <Link
             className=" underline ml-[1.7rem] flex items-center gap-x-3  text-blue-600 text-[20px] mb-2"
@@ -66,7 +65,7 @@ const mvc_case_studies = () => {
             target="blank"
           >
             <HiLink />
-            Click here
+            Click here-Website(iTicket)
           </Link>
           <Link
             className=" underline ml-[1.7rem] flex items-center gap-x-3  text-blue-600 text-[20px] mb-2"
@@ -76,7 +75,7 @@ const mvc_case_studies = () => {
             target="blank"
           >
             <HiLink />
-           Click here
+            Click here-App Store
           </Link>
 
           <h2 className="lg:text-2xl md:text-1xl font-bold mb-6 mt-8">
@@ -90,7 +89,7 @@ const mvc_case_studies = () => {
             target="blank"
           >
             <HiLink />
-            Click here
+            Click here-Website
           </Link>
         </div>
       </div>
