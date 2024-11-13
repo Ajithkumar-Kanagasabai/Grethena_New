@@ -16,7 +16,7 @@ const Startups = () => {
         <h1 className="text-center text-4xl mt-[4rem]  font-bold">Startups</h1>
         <div className="grid gap-9 grid-cols-1 lg:grid-cols-2 mx-auto mt-8 bg-cover p-4 w-[90%]">
           <div
-            className="flex flex-col  rounded-lg shadow-md items-center  lg:hover:scale-105 hover:scale-105 duration-300 lg:h-[430px] h-[200px] mt-[4rem] cursor-pointer p-5 bg-auto"
+            className="flex flex-col  rounded-lg shadow-md items-center  lg:hover:scale-105 hover:scale-105 duration-300 lg:h-[430px] h-[200px] mt-[4rem] cursor-pointer p-5  bg-cover"
             style={{ backgroundImage: `url(${mvp.src})` }}
             onClick={() => router.push("/Startups/mvp")}
           >

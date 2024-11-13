@@ -27,7 +27,7 @@ const about = () => {
               </h2>
             </div>
             <p className="text-center text-gray-600 text-xl">
-              Welcome to Grethena Where Innovation Meets Excellence in
+              Welcome to Grethena-Where Innovation Meets Excellence in
               Information Technology In a rapidly evolving digital landscape, we
               stand at the forefront of technological advancements, dedicated to
               bringing you solutions that are not only innovative but also

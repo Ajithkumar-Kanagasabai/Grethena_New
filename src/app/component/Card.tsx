@@ -16,12 +16,12 @@ const Card: React.FC<CardProps> = ({ title, description,index,logo }) => {
   
   return (
     <div className="w-[560px] h-[380px] p-3 rounded-lg overflow-hidden shadow-xl bg-[#04E39C] transition-colors duration-300 flex items-center hover:bg-gradient-to-r hover:from-[#6754c5] hover:to-[#6754c5]  hover:text-white">
-      <div className=" flex flex-col justify-center  p-4 w-[80%] mx-auto">
+      <div className=" flex flex-col justify-center  p-4 w-[90%] lg:w-[80%] mx-auto">
         <div className=' flex justify-center mb-4'>
           {logo}
         </div>
         <div
-          className={`text-center font-bold text-[20px] text-nowrap  mb-2  mx-auto`}
+          className={`text-center font-bold text-[20px]   mb-2  mx-auto`}
         >
           {title}
         </div>
