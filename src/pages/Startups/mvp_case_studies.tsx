@@ -9,13 +9,16 @@ const mvc_case_studies = () => {
   return (
     <>
       <Header />
-      <div className="p-5">
-        <h1 className="text-center text-3xl font-bold mt-10 ">
+      <div className="p-5 px-9 min-h-[700px] container">
+        <h1 className="text-center lg:text-3xl md:text-3xl text-2xl font-bold mt-10  ">
           Build a MVP with Grethena
         </h1>
         <div className="mt-20 mb-8">
-          <div className="text-2xl md:text-1xl font-bold mb-6  ">
-            <h1>Myco-Media streaming app, UAE</h1>
+
+          <div className="  ">
+            <h1 className="lg:text-2xl md:text-xl text-md font-bold mb-6">
+              Myco-Media streaming app, UAE
+            </h1>
           </div>
           <Link
             className=" underline ml-[1.7rem] flex items-center gap-x-3  text-blue-600 text-[20px] mb-2"
@@ -23,7 +26,7 @@ const mvc_case_studies = () => {
             target="blank"
           >
             <HiLink />
-            https://myco.io/
+            Click here
           </Link>
           <Link
             className=" underline ml-[1.7rem] flex items-center gap-x-3  text-blue-600 text-[20px] mb-2"
@@ -33,7 +36,7 @@ const mvc_case_studies = () => {
             target="blank"
           >
             <HiLink />
-            https://apps.apple.com/us/app/myco-powered-by-mcontent/id1603970931
+           Click here
           </Link>
           <Link
             className=" underline ml-[1.7rem] flex items-center gap-x-3  text-blue-600 text-[20px] mb-2"
@@ -43,10 +46,10 @@ const mvc_case_studies = () => {
             target="blank"
           >
             <HiLink />
-            https://play.google.com/store/apps/details?id=com.mcontent&hl=en&gl=US
+            Click here
           </Link>
 
-          <h2 className="text-2xl md:text-1xl font-bold mb-6 mt-8">
+          <h2 className="lg:text-2xl md:text-1xl font-bold mb-6 mt-8">
             United Kingdom Parking Control Utility App, UK
           </h2>
           <Link
@@ -55,7 +58,7 @@ const mvc_case_studies = () => {
             target="blank"
           >
             <HiLink />
-            https://www.ukparkingcontrol.com/
+            Click here
           </Link>
           <Link
             className=" underline ml-[1.7rem] flex items-center gap-x-3  text-blue-600 text-[20px] mb-2"
@@ -63,7 +66,7 @@ const mvc_case_studies = () => {
             target="blank"
           >
             <HiLink />
-            https://www.ukparkingcontrol.com/iticket/
+            Click here
           </Link>
           <Link
             className=" underline ml-[1.7rem] flex items-center gap-x-3  text-blue-600 text-[20px] mb-2"
@@ -73,10 +76,10 @@ const mvc_case_studies = () => {
             target="blank"
           >
             <HiLink />
-            https://apps.apple.com/gb/app/iticket-space-patrol-ukpc/id969471170
+           Click here
           </Link>
 
-          <h2 className="text-2xl md:text-1xl font-bold mb-6 mt-8">
+          <h2 className="lg:text-2xl md:text-1xl font-bold mb-6 mt-8">
             Eurostar(Train company), UK
           </h2>
           <Link
@@ -87,7 +90,7 @@ const mvc_case_studies = () => {
             target="blank"
           >
             <HiLink />
-            https://www.eurostar.com/uk-en/travel-info/your-trip/eurostar-app
+            Click here
           </Link>
         </div>
       </div>

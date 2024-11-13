@@ -13,7 +13,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
     <div>
       <Header />
       <div className="min-h-[700px] px-8">
-        <div className="lg:flex  gap-x-7 items-center">
+        <div className="lg:flex gap-x-7 items-center">
           <div>
             <Image
               src={mvpImage2}
@@ -21,7 +21,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
               alt="mvp"
             />
           </div>
-          <div className="w-[80%] mt-4 relative">
+          <div className="lg:w-[80%] mt-4 relative">
             <h1 className="text-3xl font-Quicksand font-semibold">
               Build an MVP in 8 Weeks with Grethena
             </h1>
@@ -31,7 +31,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
               and engagement. Join a community of successful founders who have
               taken their first step with Grethena.
             </p>
-            <div className="mt-5  lg:absolute left-0 flex gap-x-2 items-center  bg-gradient-to-r from-[#FF7369] to-[#FFB06D] p-2 text-white rounded-md font-medium w-[43%] md:w-[20%] text-nowrap  ">
+            <div className="mt-5  lg:absolute left-0 flex gap-x-2 items-center  bg-gradient-to-r from-[#FF7369] to-[#FFB06D] p-2 text-white rounded-md font-medium w-[33%] md:w-[22%] lg:w-[20%]   ">
               <Link className="" href={"/Startups/mvp_case_studies"}>
                 View Case Studies
               </Link>
